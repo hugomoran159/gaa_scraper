@@ -1,469 +1,285 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "name": "Dublin_GAA_Fixtures_Scraper.ipynb"
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "header"
-      },
-      "source": [
-        "# 🏈 Dublin GAA Fixtures Scraper\n",
-        "\n",
-        "**Comprehensive fixture data collection for all Dublin GAA sports, age groups, and competitions**\n",
-        "\n",
-        "---\n",
-        "\n",
-        "## 📋 What This Does\n",
-        "\n",
-        "This notebook collects **ALL** Dublin GAA fixture data including:\n",
-        "- **Sports**: Male Football, Hurling, Ladies Football, Camogie\n",
-        "- **Age Groups**: U8 through Adult competitions  \n",
-        "- **Date Range**: Next 2 weeks (customizable)\n",
-        "- **Output**: CSV, Excel, and JSON formats\n",
-        "\n",
-        "## 🚀 Quick Start\n",
-        "\n",
-        "1. Run the setup cell below\n",
-        "2. Run the data collection cell\n",
-        "3. Download your results\n",
-        "\n",
-        "**Total runtime: ~2 minutes**"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "id": "setup"
-      },
-      "source": [
-        "# 📦 Setup: Install dependencies and download scraper\n",
-        "print(\"🔧 Installing dependencies...\")\n",
-        "!pip install requests beautifulsoup4 lxml pandas plotly -q\n",
-        "\n",
-        "print(\"📥 Downloading Dublin GAA scraper...\")\n",
-        "!wget -q https://raw.githubusercontent.com/your-username/gaa_scraper/main/src/gaa_scraper.py\n",
-        "\n",
-        "# Alternative: If the above doesn't work, we'll create the scraper inline\n",
-        "import requests\n",
-        "from datetime import datetime, timedelta\n",
-        "import pandas as pd\n",
-        "import json\n",
-        "from typing import Dict, List, Optional\n",
-        "import time\n",
-        "from bs4 import BeautifulSoup\n",
-        "\n",
-        "print(\"✅ Setup complete!\")"
-      ],
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "id": "scraper_class"
-      },
-      "source": [
-        "# 🏈 Dublin GAA Scraper Class (Embedded)\n",
-        "class DublinGAAScraper:\n",
-        "    \"\"\"Scraper for Dublin GAA fixtures and results data.\"\"\"\n",
-        "    \n",
-        "    def __init__(self):\n",
-        "        self.sportlomo_ajax_url = \"https://dublingaa.sportlomo.com/wp-admin/admin-ajax.php\"\n",
-        "        \n",
-        "        self.session = requests.Session()\n",
-        "        self.session.headers.update({\n",
-        "            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'\n",
-        "        })\n",
-        "        \n",
-        "        # Sports mapping with correct user_id/code_id combinations\n",
-        "        self.sports_mapping = {\n",
-        "            \"Male Football\": \"3,7167,7130_26\",\n",
-        "            \"Hurling\": \"3,7167,7130_27\", \n",
-        "            \"Ladies Football\": \"7046\",\n",
-        "            \"Camogie\": \"7282\"\n",
-        "        }\n",
-        "    \n",
-        "    def _parse_sport_value(self, sport_value: str) -> tuple:\n",
-        "        \"\"\"Parse sport value to get user_id and code_id.\"\"\"\n",
-        "        user_id = ''\n",
-        "        code_id = ''\n",
-        "        if \"_\" in sport_value:\n",
-        "            user_id, code_id = sport_value.split('_')\n",
-        "        else:\n",
-        "            user_id = sport_value\n",
-        "        return user_id, code_id\n",
-        "    \n",
-        "    def _parse_sportlomo_match_data(self, html_content: str) -> List[Dict]:\n",
-        "        \"\"\"Parse HTML fragment from SportLoMo AJAX call.\"\"\"\n",
-        "        soup = BeautifulSoup(html_content, 'html.parser')\n",
-        "        matches = []\n",
-        "        \n",
-        "        # Find all competition headers\n",
-        "        competition_headers = soup.find_all('thead', class_='divider')\n",
-        "        \n",
-        "        for header in competition_headers:\n",
-        "            # Get competition name and date\n",
-        "            comp_name_tag = header.find('div', class_='comp-name')\n",
-        "            comp_name = comp_name_tag.get_text(strip=True) if comp_name_tag else \"N/A\"\n",
-        "            \n",
-        "            match_date_tag = header.find('div', class_='date')\n",
-        "            match_date = match_date_tag.get_text(strip=True).replace(\"st\", \"\").replace(\"nd\", \"\").replace(\"rd\", \"\").replace(\"th\", \"\") if match_date_tag else \"N/A\"\n",
-        "            \n",
-        "            # Find match rows\n",
-        "            current_element = header.find_next_sibling()\n",
-        "            while current_element and current_element.name == 'tbody':\n",
-        "                match_row = current_element\n",
-        "                \n",
-        "                # Extract match data\n",
-        "                time_tag = match_row.find('td', class_='time')\n",
-        "                match_time = time_tag.get_text(strip=True) if time_tag else \"N/A\"\n",
-        "                \n",
-        "                home_team_tag = match_row.find('td', class_='align-right')\n",
-        "                if home_team_tag:\n",
-        "                    home_team_span = home_team_tag.find('span', class_='team-name')\n",
-        "                    home_team = home_team_span.get_text(strip=True) if home_team_span else \"N/A\"\n",
-        "                else:\n",
-        "                    home_team = \"N/A\"\n",
-        "                \n",
-        "                away_team_tag = match_row.find('td', class_='align-left')\n",
-        "                if away_team_tag:\n",
-        "                    away_team_span = away_team_tag.find('span', class_='team-name')\n",
-        "                    away_team = away_team_span.get_text(strip=True) if away_team_span else \"N/A\"\n",
-        "                else:\n",
-        "                    away_team = \"N/A\"\n",
-        "                \n",
-        "                # Venue and referee\n",
-        "                venue_tag = match_row.find('div', class_='venue')\n",
-        "                venue = venue_tag.find('span').get_text(strip=True) if venue_tag and venue_tag.find('span') else \"N/A\"\n",
-        "                \n",
-        "                referee_tag = match_row.find('div', class_='referee')\n",
-        "                referee = referee_tag.find('span').get_text(strip=True) if referee_tag and referee_tag.find('span') else \"N/A\"\n",
-        "                \n",
-        "                matches.append({\n",
-        "                    \"date\": match_date,\n",
-        "                    \"time\": match_time,\n",
-        "                    \"competition\": comp_name,\n",
-        "                    \"home_team\": home_team,\n",
-        "                    \"away_team\": away_team,\n",
-        "                    \"venue\": venue,\n",
-        "                    \"referee\": referee\n",
-        "                })\n",
-        "                \n",
-        "                current_element = current_element.find_next_sibling()\n",
-        "        \n",
-        "        return matches\n",
-        "    \n",
-        "    def get_two_weeks_all_sports(self, start_date: str = None) -> Dict:\n",
-        "        \"\"\"Get fixtures for all sports for the next two weeks.\"\"\"\n",
-        "        if start_date is None:\n",
-        "            start_date = datetime.now().strftime('%Y-%m-%d')\n",
-        "        \n",
-        "        # Calculate end date (14 days from start)\n",
-        "        start_dt = datetime.strptime(start_date, '%Y-%m-%d')\n",
-        "        end_dt = start_dt + timedelta(days=13)\n",
-        "        end_date = end_dt.strftime('%Y-%m-%d')\n",
-        "        \n",
-        "        print(f\"📅 Collecting fixtures from {start_date} to {end_date}\")\n",
-        "        print(f\"🏆 Sports: {list(self.sports_mapping.keys())}\")\n",
-        "        \n",
-        "        all_fixtures = []\n",
-        "        results_by_sport = {}\n",
-        "        \n",
-        "        for sport in self.sports_mapping.keys():\n",
-        "            print(f\"\\n🔄 Scraping {sport}...\")\n",
-        "            \n",
-        "            sport_value = self.sports_mapping[sport]\n",
-        "            user_id, code_id = self._parse_sport_value(sport_value)\n",
-        "            \n",
-        "            sport_fixtures = []\n",
-        "            \n",
-        "            # Get fixtures for each date in range\n",
-        "            current_date = datetime.strptime(start_date, '%Y-%m-%d')\n",
-        "            end_date_obj = datetime.strptime(end_date, '%Y-%m-%d')\n",
-        "            \n",
-        "            while current_date <= end_date_obj:\n",
-        "                date_str = current_date.strftime('%Y-%m-%d')\n",
-        "                \n",
-        "                payload = {\n",
-        "                    'action': 'get_fixtures',\n",
-        "                    'fdate': date_str,\n",
-        "                    'tdate': date_str,\n",
-        "                    'user_id': user_id,\n",
-        "                    'code_id': code_id,\n",
-        "                    'age_id': '',\n",
-        "                    'spage_id': '1',\n",
-        "                    'is_fixture': '1',\n",
-        "                }\n",
-        "                \n",
-        "                try:\n",
-        "                    response = self.session.post(\n",
-        "                        self.sportlomo_ajax_url,\n",
-        "                        data=payload,\n",
-        "                        timeout=30\n",
-        "                    )\n",
-        "                    response.raise_for_status()\n",
-        "                    \n",
-        "                    data = response.json()\n",
-        "                    html_content = data.get('html', '')\n",
-        "                    \n",
-        "                    if html_content and \"not_found\" not in html_content:\n",
-        "                        parsed_matches = self._parse_sportlomo_match_data(html_content)\n",
-        "                        if parsed_matches:\n",
-        "                            for match in parsed_matches:\n",
-        "                                match['sport'] = sport\n",
-        "                                match['scraped_date'] = date_str\n",
-        "                            sport_fixtures.extend(parsed_matches)\n",
-        "                    \n",
-        "                    time.sleep(0.5)  # Be respectful\n",
-        "                    \n",
-        "                except Exception as e:\n",
-        "                    print(f\"  ⚠️ Error for {sport} on {date_str}: {e}\")\n",
-        "                \n",
-        "                current_date += timedelta(days=1)\n",
-        "            \n",
-        "            results_by_sport[sport] = {\n",
-        "                'success': True,\n",
-        "                'fixtures': sport_fixtures,\n",
-        "                'sport': sport\n",
-        "            }\n",
-        "            \n",
-        "            all_fixtures.extend(sport_fixtures)\n",
-        "            print(f\"  ✅ Found {len(sport_fixtures)} fixtures for {sport}\")\n",
-        "        \n",
-        "        return {\n",
-        "            'success': True,\n",
-        "            'total_fixtures': len(all_fixtures),\n",
-        "            'fixtures': all_fixtures,\n",
-        "            'by_sport': results_by_sport,\n",
-        "            'date_range': f\"{start_date} to {end_date}\",\n",
-        "            'sports_scraped': list(self.sports_mapping.keys()),\n",
-        "            'method': 'comprehensive_sportlomo'\n",
-        "        }\n",
-        "\n",
-        "print(\"✅ Dublin GAA Scraper ready!\")"
-      ],
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "id": "collect_data"
-      },
-      "source": [
-        "# 🔄 Collect Comprehensive Dublin GAA Fixture Data\n",
-        "print(\"🏈 Dublin GAA Comprehensive Fixtures Scraper\")\n",
-        "print(\"=\" * 50)\n",
-        "\n",
-        "# Initialize scraper\n",
-        "scraper = DublinGAAScraper()\n",
-        "\n",
-        "# Collect data for next 2 weeks\n",
-        "print(\"\\n🚀 Starting data collection...\")\n",
-        "start_time = time.time()\n",
-        "\n",
-        "result = scraper.get_two_weeks_all_sports()\n",
-        "\n",
-        "end_time = time.time()\n",
-        "collection_time = end_time - start_time\n",
-        "\n",
-        "print(\"\\n\" + \"=\" * 50)\n",
-        "print(\"📊 COLLECTION COMPLETE!\")\n",
-        "print(\"=\" * 50)\n",
-        "\n",
-        "if result['success']:\n",
-        "    print(f\"✅ Total fixtures collected: {result['total_fixtures']}\")\n",
-        "    print(f\"📅 Date range: {result['date_range']}\")\n",
-        "    print(f\"⏱️  Collection time: {collection_time:.1f} seconds\")\n",
-        "    print(f\"🏆 Sports: {', '.join(result['sports_scraped'])}\")\n",
-        "    \n",
-        "    # Show breakdown by sport\n",
-        "    print(\"\\n📊 Breakdown by sport:\")\n",
-        "    for sport, data in result['by_sport'].items():\n",
-        "        fixture_count = len(data['fixtures'])\n",
-        "        print(f\"  • {sport}: {fixture_count} fixtures\")\n",
-        "    \n",
-        "    # Convert to DataFrame for analysis\n",
-        "    df = pd.DataFrame(result['fixtures'])\n",
-        "    print(f\"\\n✅ Data converted to DataFrame: {len(df)} rows x {len(df.columns)} columns\")\n",
-        "    \n",
-        "else:\n",
-        "    print(f\"❌ Collection failed: {result.get('error', 'Unknown error')}\")\n",
-        "    df = pd.DataFrame()"
-      ],
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "id": "analyze_data"
-      },
-      "source": [
-        "# 📊 Data Analysis and Visualization\n",
-        "if not df.empty:\n",
-        "    print(\"📋 DATA SUMMARY\")\n",
-        "    print(\"=\" * 30)\n",
-        "    print(f\"Total fixtures: {len(df)}\")\n",
-        "    print(f\"Date range: {df['date'].min()} to {df['date'].max()}\")\n",
-        "    print(f\"Sports: {df['sport'].nunique()}\")\n",
-        "    print(f\"Competitions: {df['competition'].nunique()}\")\n",
-        "    print(f\"Venues: {df['venue'].nunique()}\")\n",
-        "    \n",
-        "    # Show sample data\n",
-        "    print(\"\\n📋 SAMPLE DATA (First 10 fixtures)\")\n",
-        "    display_cols = ['sport', 'date', 'time', 'competition', 'home_team', 'away_team', 'venue']\n",
-        "    print(df[display_cols].head(10).to_string(index=False))\n",
-        "    \n",
-        "    # Sport breakdown\n",
-        "    print(\"\\n🏆 FIXTURES BY SPORT\")\n",
-        "    sport_counts = df['sport'].value_counts()\n",
-        "    for sport, count in sport_counts.items():\n",
-        "        percentage = (count / len(df)) * 100\n",
-        "        print(f\"  {sport}: {count} fixtures ({percentage:.1f}%)\")\n",
-        "    \n",
-        "    # Top competitions\n",
-        "    print(\"\\n🏟️ TOP 10 COMPETITIONS\")\n",
-        "    top_competitions = df['competition'].value_counts().head(10)\n",
-        "    for i, (comp, count) in enumerate(top_competitions.items(), 1):\n",
-        "        print(f\"  {i:2d}. {comp}: {count} fixtures\")\n",
-        "    \n",
-        "    # Daily distribution\n",
-        "    print(\"\\n📅 FIXTURES BY DATE\")\n",
-        "    date_counts = df['date'].value_counts().sort_index()\n",
-        "    for date, count in date_counts.items():\n",
-        "        print(f\"  {date}: {count} fixtures\")\n",
-        "    \n",
-        "else:\n",
-        "    print(\"❌ No data available for analysis\")"
-      ],
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "id": "download_data"
-      },
-      "source": [
-        "# 📥 Download Data Files\n",
-        "if not df.empty:\n",
-        "    from google.colab import files\n",
-        "    import io\n",
-        "    \n",
-        "    # Generate filename with current date\n",
-        "    today = datetime.now().strftime('%Y-%m-%d')\n",
-        "    \n",
-        "    print(\"💾 Preparing download files...\")\n",
-        "    \n",
-        "    # 1. CSV file\n",
-        "    csv_filename = f'dublin_gaa_fixtures_{today}.csv'\n",
-        "    df.to_csv(csv_filename, index=False)\n",
-        "    print(f\"✅ Created {csv_filename}\")\n",
-        "    \n",
-        "    # 2. Excel file with multiple sheets\n",
-        "    excel_filename = f'dublin_gaa_fixtures_{today}.xlsx'\n",
-        "    with pd.ExcelWriter(excel_filename, engine='openpyxl') as writer:\n",
-        "        # All fixtures\n",
-        "        df.to_excel(writer, sheet_name='All Fixtures', index=False)\n",
-        "        \n",
-        "        # Summary sheet\n",
-        "        summary_data = {\n",
-        "            'Metric': ['Total Fixtures', 'Sports', 'Competitions', 'Teams', 'Venues'],\n",
-        "            'Count': [\n",
-        "                len(df),\n",
-        "                df['sport'].nunique(),\n",
-        "                df['competition'].nunique(),\n",
-        "                len(set(list(df['home_team']) + list(df['away_team']))),\n",
-        "                df['venue'].nunique()\n",
-        "            ]\n",
-        "        }\n",
-        "        pd.DataFrame(summary_data).to_excel(writer, sheet_name='Summary', index=False)\n",
-        "        \n",
-        "        # Sport-specific sheets\n",
-        "        for sport in df['sport'].unique():\n",
-        "            sport_df = df[df['sport'] == sport]\n",
-        "            sheet_name = sport.replace(' ', '_')[:31]  # Excel sheet name limit\n",
-        "            sport_df.to_excel(writer, sheet_name=sheet_name, index=False)\n",
-        "    \n",
-        "    print(f\"✅ Created {excel_filename}\")\n",
-        "    \n",
-        "    # 3. JSON file\n",
-        "    json_filename = f'dublin_gaa_fixtures_{today}.json'\n",
-        "    with open(json_filename, 'w') as f:\n",
-        "        json.dump(result, f, indent=2, default=str)\n",
-        "    print(f\"✅ Created {json_filename}\")\n",
-        "    \n",
-        "    print(\"\\n📥 DOWNLOAD FILES:\")\n",
-        "    print(\"Click the files below to download:\")\n",
-        "    \n",
-        "    # Download files\n",
-        "    files.download(csv_filename)\n",
-        "    files.download(excel_filename)\n",
-        "    files.download(json_filename)\n",
-        "    \n",
-        "    print(\"\\n🎉 Download complete!\")\n",
-        "    print(\"\\n📊 File descriptions:\")\n",
-        "    print(f\"• {csv_filename} - Main data for analysis (Excel/Google Sheets)\")\n",
-        "    print(f\"• {excel_filename} - Multi-sheet workbook with summaries\")\n",
-        "    print(f\"• {json_filename} - Raw data with metadata (programming)\")\n",
-        "    \n",
-        "else:\n",
-        "    print(\"❌ No data to download\")"
-      ],
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "next_steps"
-      },
-      "source": [
-        "## 🎉 Success!\n",
-        "\n",
-        "You've successfully collected comprehensive Dublin GAA fixture data!\n",
-        "\n",
-        "### 📥 Your Downloaded Files:\n",
-        "\n",
-        "1. **CSV file** - Open in Excel, Google Sheets, or any spreadsheet software\n",
-        "2. **Excel file** - Multi-sheet workbook with sport-specific tabs and summary\n",
-        "3. **JSON file** - Raw data for programming/API integration\n",
-        "\n",
-        "### 💡 What You Can Do Next:\n",
-        "\n",
-        "- **Analyze patterns** in fixture scheduling and venue usage\n",
-        "- **Track team participation** across different competitions\n",
-        "- **Monitor competition distribution** by sport and age group\n",
-        "- **Create custom reports** using the Excel file\n",
-        "- **Build dashboards** using the JSON data\n",
-        "\n",
-        "### 🔄 Running Again:\n",
-        "\n",
-        "- **Re-run this notebook** anytime to get fresh data\n",
-        "- **Modify the date range** in the scraper initialization\n",
-        "- **Share this notebook** with others who need GAA data\n",
-        "\n",
-        "---\n",
-        "\n",
-        "**Questions or issues?** This scraper uses the official SportLoMo API that powers the Dublin GAA website.\n",
-        "\n",
-        "**Want to host this as a web app?** Check out the Streamlit version for a user-friendly interface!"
-      ]
-    }
-  ]
-} 
+# 🚀 Deployment Guide: Dublin GAA Fixtures Scraper
+
+## 🌟 **Option 1: Streamlit Cloud (Recommended)**
+**Most user-friendly hosting option**
+
+### What You Get:
+- ✅ Beautiful web interface with charts and filters
+- ✅ One-click data collection
+- ✅ Multiple download formats (CSV, Excel, JSON)
+- ✅ Free hosting forever
+- ✅ Auto-updates when you push to GitHub
+
+### Setup Steps:
+
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Add Streamlit app"
+   git push origin main
+   ```
+
+2. **Deploy on Streamlit Cloud**
+   - Go to [share.streamlit.io](https://share.streamlit.io)
+   - Click "New app"
+   - Connect your GitHub repository
+   - Set main file: `streamlit_app.py`
+   - Click "Deploy"
+
+3. **Share with Users**
+   - Get your public URL (e.g., `https://your-app.streamlit.app`)
+   - Users just visit the URL and click "Scrape Fixtures"
+
+### User Experience:
+```
+Visit URL → Choose date range → Click "Scrape" → Download data
+```
+
+---
+
+## 📚 **Option 2: Google Colab Notebook**
+**Perfect for sharing with developers or data analysts**
+
+### What You Get:
+- ✅ Run in browser, no installation needed
+- ✅ Complete code visibility
+- ✅ Easy to modify and customize
+- ✅ Automatic file downloads
+- ✅ Works on any device
+
+### Setup Steps:
+
+1. **Create the Notebook**
+   - Copy the code from our comprehensive scraper
+   - Upload to Google Drive or GitHub
+
+2. **Share the Notebook**
+   - Get shareable link
+   - Users open in Google Colab
+   - Run cells to collect data
+
+### User Experience:
+```
+Open notebook → Run cells → Download files automatically
+```
+
+---
+
+## 🤖 **Option 3: GitHub Actions (Automated)**
+**For automated daily data collection**
+
+### What You Get:
+- ✅ Runs automatically on schedule (daily/weekly)
+- ✅ Results published to GitHub Pages
+- ✅ Always up-to-date data
+- ✅ Email notifications on completion
+- ✅ Version history of all data
+
+### Setup Steps:
+
+1. **Create Workflow File** (`.github/workflows/scraper.yml`):
+   ```yaml
+   name: Dublin GAA Scraper
+   on:
+     schedule:
+       - cron: '0 6 * * *'  # Daily at 6 AM
+     workflow_dispatch:  # Manual trigger
+   
+   jobs:
+     scrape:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v3
+         - uses: actions/setup-python@v4
+           with:
+             python-version: '3.11'
+         - run: pip install -r requirements.txt
+         - run: python comprehensive_scraper.py
+         - uses: actions/upload-artifact@v3
+           with:
+             name: gaa-fixtures
+             path: '*.csv'
+   ```
+
+2. **Enable GitHub Pages**
+   - Settings → Pages → Source: GitHub Actions
+   - Create simple HTML page to display latest data
+
+### User Experience:
+```
+Visit GitHub Pages → View latest data → Download CSV
+```
+
+---
+
+## 🌐 **Option 4: Railway/Render (Web Service)**
+**For a professional web application**
+
+### What You Get:
+- ✅ Custom domain support
+- ✅ Fast, scalable hosting
+- ✅ Database integration possible
+- ✅ API endpoints
+- ✅ Professional appearance
+
+### Setup Steps:
+
+1. **Create Web App** (`app.py`):
+   ```python
+   from flask import Flask, render_template, send_file
+   from src.gaa_scraper import DublinGAAScraper
+   import pandas as pd
+   
+   app = Flask(__name__)
+   
+   @app.route('/')
+   def home():
+       return render_template('index.html')
+   
+   @app.route('/scrape')
+   def scrape():
+       scraper = DublinGAAScraper()
+       data = scraper.get_two_weeks_all_sports()
+       df = pd.DataFrame(data['fixtures'])
+       df.to_csv('latest_fixtures.csv', index=False)
+       return send_file('latest_fixtures.csv', as_attachment=True)
+   
+   if __name__ == '__main__':
+       app.run(host='0.0.0.0', port=5000)
+   ```
+
+2. **Deploy to Railway**
+   - Connect GitHub repository
+   - Auto-deploys on push
+   - Get custom URL
+
+### User Experience:
+```
+Visit website → Click "Get Fixtures" → Download starts
+```
+
+---
+
+## 🐳 **Option 5: Docker + Cloud Run**
+**For maximum control and scalability**
+
+### What You Get:
+- ✅ Completely portable
+- ✅ Scales automatically
+- ✅ Pay only for usage
+- ✅ Professional deployment
+- ✅ Easy to maintain
+
+### Setup Steps:
+
+1. **Create Dockerfile**:
+   ```dockerfile
+   FROM python:3.11-slim
+   WORKDIR /app
+   COPY requirements.txt .
+   RUN pip install -r requirements.txt
+   COPY . .
+   EXPOSE 8080
+   CMD ["streamlit", "run", "streamlit_app.py", "--server.port=8080", "--server.address=0.0.0.0"]
+   ```
+
+2. **Deploy to Google Cloud Run**:
+   ```bash
+   gcloud run deploy dublin-gaa-scraper \
+     --source . \
+     --platform managed \
+     --region us-central1 \
+     --allow-unauthenticated
+   ```
+
+---
+
+## 🎯 **Quick Decision Matrix**
+
+| Use Case | Best Option | Setup Time | Technical Level |
+|----------|-------------|------------|-----------------|
+| **Non-technical users** | Streamlit Cloud | 5 minutes | Beginner |
+| **Share with analysts** | Google Colab | 10 minutes | Beginner |
+| **Automated daily data** | GitHub Actions | 15 minutes | Intermediate |
+| **Professional web app** | Railway/Render | 20 minutes | Intermediate |
+| **Enterprise deployment** | Docker + Cloud | 30 minutes | Advanced |
+
+---
+
+## 🛠️ **Implementation Steps**
+
+### For Streamlit Cloud (Recommended):
+
+1. **Prepare Repository**
+   ```bash
+   # Make sure all files are ready
+   git add streamlit_app.py requirements.txt .streamlit/
+   git commit -m "Add Streamlit deployment files"
+   git push origin main
+   ```
+
+2. **Deploy**
+   - Visit [share.streamlit.io](https://share.streamlit.io)
+   - Sign in with GitHub
+   - Click "New app"
+   - Select your repository
+   - Main file: `streamlit_app.py`
+   - Click "Deploy!"
+
+3. **Share**
+   - Get your app URL (e.g., `dublin-gaa-scraper.streamlit.app`)
+   - Share with users
+   - They can immediately start using it!
+
+### Live Demo Features:
+- 📊 Interactive data visualization
+- 🎛️ Custom date range selection
+- 🏆 Sport filtering options
+- 📥 Multiple download formats
+- 📈 Real-time progress tracking
+- 🔍 Advanced data analysis tools
+
+---
+
+## 📱 **User Interface Preview**
+
+Your Streamlit app will have:
+
+```
+🏈 Dublin GAA Fixtures Scraper
+═══════════════════════════════
+
+Sidebar Controls:          Main Content:
+┌─────────────────────┐    ┌─────────────────────────────┐
+│ 📅 Date Range       │    │ 📊 Key Metrics             │
+│ ○ Next 2 weeks      │    │ 🏈 393 Total Fixtures      │
+│ ○ Custom range      │    │ 🏆 3/4 Sports Covered      │
+│ ○ Today only        │    │ 📅 14 Days                 │
+│                     │    │ 🏟️ 121 Competitions        │
+│ 🏆 Sports           │    │                            │
+│ ☑ Male Football     │    │ Tabs:                      │
+│ ☑ Hurling           │    │ [Data Table] [Charts]      │
+│ ☑ Ladies Football   │    │ [By Sport] [Download]      │
+│ ☑ Camogie           │    │ [Analysis]                 │
+│                     │    │                            │
+│ 🚀 Actions          │    │ Interactive visualizations │
+│ [Scrape Fixtures]   │    │ and filterable data tables │
+│ [Load Sample Data]  │    │                            │
+└─────────────────────┘    └─────────────────────────────┘
+```
+
+---
+
+## 🎉 **Next Steps**
+
+1. **Choose your hosting option** (Streamlit Cloud recommended)
+2. **Follow the setup steps** above
+3. **Test with sample data** to ensure everything works
+4. **Share the URL** with your users
+5. **Monitor usage** and gather feedback
+
+Your Dublin GAA scraper will be live and ready for users in minutes!
+
+---
+
+**Need help?** All the deployment files are already created in your project. Just follow the steps above for your chosen hosting option. 

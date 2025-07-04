@@ -90,7 +90,7 @@ def display_metrics(data):
     
     with col1:
         st.metric(
-            label="🏈 Total Fixtures",
+            label="⚽ Total Fixtures",
             value=total_fixtures,
             help="Total number of fixtures collected"
         )
@@ -290,49 +290,83 @@ def main():
 
 
 def scrape_fixtures(start_date, end_date, selected_sports):
-    """Scrape fixtures with progress tracking."""
+    """Scrape fixtures with enhanced progress tracking."""
     start_date_str = start_date.strftime('%Y-%m-%d')
     end_date_str = end_date.strftime('%Y-%m-%d')
     
-    # Progress tracking
+    # Enhanced progress tracking
     progress_bar = st.progress(0)
     status_text = st.empty()
+    details_text = st.empty()
+    sport_progress = st.empty()
+    
+    # Progress callback function
+    def update_progress(message, current, total):
+        progress = int((current / total) * 100) if total > 0 else 0
+        progress_bar.progress(progress)
+        sport_progress.text(f"🏆 Progress: {current}/{total} sports processed")
+        details_text.text(message)
     
     try:
-        status_text.text(f"🔄 Initializing scraper...")
+        status_text.text(f"🔄 Initializing parallel scraper...")
+        progress_bar.progress(5)
+        
+        # Calculate and display request info
+        total_days = (end_date - start_date).days + 1
+        total_requests = 0
+        for sport in selected_sports:
+            age_groups = len(st.session_state.scraper.age_mappings.get(sport, ['']))
+            total_requests += total_days * age_groups
+        
+        status_text.text(f"📊 Preparing {total_requests} parallel requests across {len(selected_sports)} sports...")
+        details_text.text(f"📅 Date range: {start_date_str} to {end_date_str} ({total_days} days)")
         progress_bar.progress(10)
         
-        status_text.text(f"📅 Collecting data from {start_date_str} to {end_date_str}...")
-        progress_bar.progress(30)
-        
-        # Perform the scraping
+        # Perform the scraping with progress callback
         if len(selected_sports) == len(st.session_state.scraper.sports_mapping) and \
            start_date == date.today() and (end_date - start_date).days == 13:
-            # Use the optimized comprehensive method
-            result = st.session_state.scraper.get_two_weeks_all_sports(start_date_str)
+            # Use the optimized comprehensive method with progress callback
+            result = st.session_state.scraper.get_two_weeks_all_sports(start_date_str, progress_callback=update_progress)
         else:
-            # Use custom collection
+            # Use custom collection with progress callback
             result = st.session_state.scraper.get_all_sports_fixtures(
                 start_date_str, 
                 end_date_str, 
-                selected_sports
+                selected_sports,
+                progress_callback=update_progress
             )
         
-        progress_bar.progress(80)
-        status_text.text("📊 Processing results...")
+        progress_bar.progress(95)
+        status_text.text("📊 Processing and analyzing results...")
+        details_text.text("Finalizing data collection...")
         
         if result.get('success'):
             st.session_state.last_scraped_data = result
             progress_bar.progress(100)
             status_text.text("✅ Scraping completed successfully!")
             
-            # Success message
+            # Enhanced success message with detailed breakdown
+            fixtures_count = result.get('total_fixtures', 0)
+            method = result.get('method', 'unknown')
+            
+            # Calculate breakdown by sport
+            sport_breakdown = {}
+            for fixture in result.get('fixtures', []):
+                sport = fixture.get('sport', 'Unknown')
+                sport_breakdown[sport] = sport_breakdown.get(sport, 0) + 1
+            
+            breakdown_text = " | ".join([f"{sport}: {count}" for sport, count in sport_breakdown.items()])
+            
+            details_text.text(f"🎯 Method: {method} | Total requests: {result.get('total_requests', 'N/A')}")
+            
             st.success(f"""
             🎉 **Scraping Completed Successfully!**
             
-            - **{result.get('total_fixtures', 0)} fixtures** collected
-            - **{len(selected_sports)} sports** scraped
+            - **{fixtures_count} fixtures** collected using parallel processing
+            - **{len(selected_sports)} sports** scraped across {total_days} days
             - **Date range:** {start_date_str} to {end_date_str}
+            - **Breakdown:** {breakdown_text}
+            - **Performance:** {result.get('total_requests', 'N/A')} parallel requests completed
             """)
             
         else:
@@ -341,8 +375,11 @@ def scrape_fixtures(start_date, end_date, selected_sports):
     except Exception as e:
         st.error(f"❌ An error occurred during scraping: {str(e)}")
     finally:
+        # Clean up progress indicators
         progress_bar.empty()
         status_text.empty()
+        details_text.empty()
+        sport_progress.empty()
 
 
 def load_sample_data():

@@ -1,394 +1,425 @@
-sport,date,time,competition,home_team,away_team,venue,referee,scraped_date
-Male Football,Friday July 4,19:30,U14 Football D Phase Two Gp.A,Ballinteer St Johns,Garda Westmanstown Gaels,Marlay Pk,Senan Finucane Templeogue Synge Street,2025-07-04
-Male Football,Friday July 4,20:00,U14 Football D Phase Two Gp.B,St Annes,Cuala,Bohernabreena,Tommie Clinton Croi Ro Naofa,2025-07-04
-Male Football,Satuay July 5,10:00,U13 Football League Div.6,Raheny,Naomh Mearnog,St Annes 7,GeorgeWilliams Trinity Gaels,2025-07-05
-Male Football,Satuay July 5,11:00,U13 Football League Div.11,Kilmacud Crokes,Whitehall Colmcille,Deerpark,Caomhan Bermingham Naomh Olaf,2025-07-05
-Male Football,Satuay July 5,11:30,U13 Football League Div.11,Raheny,O Dwyers,St Annes 7,GeorgeWilliams Trinity Gaels,2025-07-05
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 1,Ballinteer St Johns,Na Fianna,Marley Park,Darren Delaney,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 1,St Judes,Cuala,Tymon Park,Andrew Cummins,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 1,St Marys S,St Oliver Plunkett ER,Saggart,Dan Stynes,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 1,Thomas Davis,Lucan Sarsfields,Kiltipper Road,Gareth Walsh,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 2,Scoil Ui Chonaill,Naomh Olaf,Clontarf Road,E Dromgoole English,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 2,Naomh Barrog,Round Towers Lusk,Pairc Barrog,Luke Lacey,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 2,Whitehall Colmcille,St Vincents,Collins Avenue,Jim Hussey,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 3,Ballymun Kickhams,Ballyboden St Endas,Pairc Ciceam,N/A,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 3,Clanna Gael-Fontenoy,St Finians (S),Sean Moore Park,Colin Doyle,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 3,Clontarf,Thomas Davis,St Annes Park,Colm McCarthy,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 3,Round Towers (C),Erins Isle,Monastery Road,Keith Tighe,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 4,Good Counsel / Liffey Gaels,Kilmacud Crokes,Galtymore Road,Craig McKeown,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 4,St Peregrines,St Finians (N),Blakestown,Fergus McGreevy,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 4,O Tooles,Ballinteer St Johns,Blunden Drive,Darren Lennon,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 4,Man O War,Garristown,Man O War,Robert Quinn,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 4,Lucan Sarsfields,St Judes,12th Lock,Martin Meehan,2025-07-06
-Male Football,Suay July 6,10:15,Go Ahead Ireland AFL Div 4,Geraldine P. Moran,Fingal Ravens,Ballyogan,Robbie Glennon,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 5,Templeogue Synge Street,St Patricks (D),Dolphin Park,Tony Lambe,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 5,St Vincents,Whitehall Colmcille,Pairc Na Uinsionn,Dermot Deasy,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 5,St Oliver Plunkett ER,Craobh Chiarain,Martin Savage Park,N/A,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 5,St Marks,Fingallians,McGee Park,Alan Linnane,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 5,St Brendans,Thomas Davis,Grangegorman,Simon Redmond,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 5,Crumlin,Naomh Olaf,Pearse Park,Brian O Brien,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 5,Skerries Harps,Ballyboden St Endas,Skerries,John O Brien,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 6,Kilmacud Crokes,St Margarets,Pairc de Burca,Tom  Eakins,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 6,Ballyfermot Gaels,Castleknock,The Gaels,Declan Enright,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 6,St Brigids,St Maurs,Russell Park,Padraig Furlong,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 6,St James Gaels An Caislean,St Judes,Iveagh Grounds,Hugh  Murphy,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 6,St Monicas,Beann Eadair,Edenmore,Des Molloy,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 6,Wanderers,Na Fianna,Frank Kelly Park,Joe Aherne,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 6,Ranelagh Gaels,Civil Service Football,Bushy Park,Senan Finucane,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 6,Round Towers Lusk,Raheny,Thomas Ashe Park,Niall Murray,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 7,St Sylvesters,Clanna Gael-Fontenoy,Broomfield,Kevin O Donnell,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 7,St Patricks (D),Pobal Parnell,Donabate,Derek Andrews,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 7,St Marys S,Templeogue Synge Street,Saggart,Marc MacLiam,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 7,St Kevin-Killians,Na Fianna,Kingswood,Brendan Gahan,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 7,Stars of Erin,Na Gaeil Oga,Glencullen,Tom Clinton,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 7,St Annes,Erins Isle,Bohernabreena,Tom Curran,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 7,Erin Go Bragh,Lucan Sarsfields,Hazelbury Park,N/A,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 7,Clontarf,Scoil Ui Chonaill,St Annes Park,N/A,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 8,Naomh Mearnog,St Vincents,Portmarnock,Stephen Shields,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 8,St Peregrines,Ballyboden St Endas,Blakestown,John Frier,2025-07-06
-Male Football,Suay July 6,11:00,Go Ahead Ireland AFL Div 8,Bank of Ireland,Skerries Harps,Ringsend Park,TBC,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 8,Shankill Gaa,Ballymun Kickhams,Stonebridge Road,Kieron Young,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 8,Raheny,Whitehall Colmcille,St Annes Park,Brian Moore,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 8,Clann Mhuire,Kilmacud Crokes,Naul,Tommy Flood,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 8,Naomh Fionnbarra,St Brigids,Pope John Paul ll Park,Anthony Brennan,2025-07-06
-Male Football,Suay July 6,12:00,Go Ahead Ireland AFL Div 8,Ballinteer St Johns,Naomh Barrog,Marley Park,Noel Thompson,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 1,Cuala,Lucan Sarsfields,Hyde Park,Adam Kelly,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 2,Ballymun Kickhams,Fingallians,Pairc Ciceam,N/A,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 2,Raheny,Ballinteer St Johns,St Annes Park,Damien Burnett,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 2,Naomh Barrog,Round Towers (C),Pairc Barrog,Tommy Byrne,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 3 North,O Tooles,Fingal Ravens,Blunden Drive,Laurence Kelly,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 3 North,Erins Isle,Thomas Ashe,Finglas,Tony Clarke,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 3 South,Naomh Olaf,St Judes,Pairc Ui Bhriain,TBC,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 3 South,St Patricks (P),Ballyboden St Endas,Glenauline Park,N/A,2025-07-06
-Male Football,Suay July 6,12:00,Minor FL Div 4,Na Fianna,Castleknock,St Mobhi Road,Shay Hurson,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 4,Clontarf,Trinity Gaels,St Annes Park,Ian Smyth,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 4,Lucan Sarsfields,Beann Eadair,Arthur Griffith Park,Paul Cullivan,2025-07-06
-Male Football,Suay July 6,10:15,Minor FL Div 5 North,Na Fianna,O Dwyers,St Mobhi Road,Philip Cullen,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 5 North,Castleknock,St Maurs,Somerton Park,Richard Lancaster,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 5 South,Ballyboden St Endas,Cuala,Ballycullen,N/A,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 5 South,St Judes,Ballinteer St Johns,Tymon Park,N/A,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 5 South,Round Towers (C),Templeogue Synge Street,Community Centre,Edward McAuley,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 5 South,Clanna Gael-Fontenoy,Geraldine P. Moran,Sean Moore Park,Diarmuid  White,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 North,Thomas Ashe,Naomh Barrog,St Margarets,Ciaran Molloy,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 North,St Sylvesters,St Peters,Broomfield,Conor Flaherty,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 North,Trinity Gaels,Na Fianna,Drumnigh,Marcus Reynolds,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 North,Whitehall Colmcille,St Patricks (D),Belcamp Park,N/A,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 Mid County,Crumlin,Templeogue Synge Street,Pearse Park,Aaron Murphy,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 Mid County,St Vincents,Robert Emmets,Pairc Na Uinsionn,TBC,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 Mid County,Good Counsel Liffey Gaels,Erin Go Bragh,Liffey Park,Eugene Murphy,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 Mid County,Lucan Sarsfields,St Brigids,Arthur Griffith Park,Caoimhín Bermingham,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 South,Ballyboden St Endas,Thomas Davis,Ballycullen,Declan Enright,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 South,Ranelagh Gaels,Ballinteer St Johns,Bushy Park,TBC,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 South,Kilmacud Crokes,Cuala,Pairc de Burca,N/A,2025-07-06
-Male Football,Suay July 6,11:00,Minor FL Div 6 South,Naomh Olaf,St Judes,Pairc Ui Bhriain,Mick Gilvarry,2025-07-06
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 9,Good Counsel Liffey Gaels,Ballyboughal,Galtymore Road,Simon Murphy,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 9,Garda Westmanstown Gaels,Cuala,Westmanstown,Alan Linnane,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 9,St Brigids,Naomh Olaf,Russell Park,Padraig Furlong,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 9,Robert Emmets,St Finians (N),Green Trees Park,N/A,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 9,Raheny,Portobello,St Annes Park,Simon Redmond,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 9,Trinity Gaels,Na Fianna,Drumnigh,Ernie Brenner,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 9,Fingallians,St Patricks (P),Lawless Park,Stephen Shields,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 9,Erins Isle,Lucan Sarsfields,Finglas,Liam O Connell,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10B,Stars of Erin,St Patricks (D),Glencullen,TBC,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10B,St Marks,Man O War,McGee Park,Robert Doyle,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10B,Whitehall Colmcille,Na Fianna,Belcamp Park,Conor Flaherty,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10B,Thomas Davis,Templeogue Synge Street,Kiltipper Road,Brian Collins,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10B,Ballinteer St Johns,Ballymun Kickhams,Loreto Park,Kieron Young,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10B,Craobh Chiarain,Crumlin,Clonshaugh,John Frier,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10B,Geraldine P. Moran,Kilmacud Crokes,Ballyogan,Tom  Eakins,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10B,St Colmcilles,Round Towers (C),Balheary,Timmy Doyle,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 11B,Na Dubh Ghall,Erin Go Bragh,Hazelbury Park,TBC,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 11B,Wanderers,Na Gaeil Oga,Frank Kelly Park,David  Garland,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 11B,St Sylvesters,St Josephs OCB,Broomfield,Marcus Reynolds,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 11B,Pobal Parnell,O Dwyers,Belcamp Park,N/A,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 11B,Croi Ro Naofa,Fingallians,Sancta Maria,Adam  Doyle,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 11B,Ballyboden St Endas,Clontarf,Ballycullen,Nicholas  Gogarty,2025-07-07
-Male Football,Moay July 7,19:30,Minor FL Div 3 North,St Sylvesters,Skerries Harps,Broomfield,Gavin Donegan,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10A,St Margarets,St Judes,St Margarets,Aaron  Douglas,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10A,St Finians (S),Castleknock,River Valley,Nicky Whelan,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10A,Rosmini Gaels,Fingal Ravens,Plunketts VEC,TBC,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10A,O Tooles,St Annes,Blunden Drive,Conor Kavanagh,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10A,Lucan Sarsfields,Garristown,Arthur Griffith Park,Anthony Brennan,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10A,Ballyboden St Endas,Naomh Barrog,Ballycullen,Tom Clinton,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10A,St Brigids,Naomh Mearnog,Russell Park,TBC,2025-07-07
-Male Football,Moay July 7,19:30,Go Ahead Ireland AFL Div 10A,O Dwyers,St Brendans,Balbriggan,Robert Quinn,2025-07-07
-Male Football,Wednesday July 9,19:30,U14 Football H Phase Two Gp.A,Ballyboden St Endas,Garda Westmanstown Gaels,Cherryfield,N/A,2025-07-09
-Male Football,Thursday July 10,19:00,U13 Football League Div.1,Cuala,Ballyboden St Endas,Thomastown,Alan Linnane St Marys,2025-07-10
-Male Football,Friday July 11,19:30,Minor FL Div 1,Kilmacud Crokes,St Patricks (D),Silver Park,Andrew Cummins,2025-07-11
-Male Football,Satuay July 12,15:30,U14 Football B Phase Two Gp.B,St Vincents,St Finians (N),PNU,Danny Harrington Naomh Mearnog,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football C Phase Two Gp.B,St Maurs,Erin Go Bragh,Rush,Daniel Burke St Patricks D,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football E Phase Two Gp.A,Beann Eadair,Lucan Sarsfields,Pairc O Ruairc-Balkill Road,Adrian Kavanagh Naomh Mearnog,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football E Phase Two Gp.B,St Peregrines,Na Gaeil Oga,Blakestown Rd,Tom Tansey St Brendans,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football E Phase Two Gp.B,Crumlin,St Judes,Pearse Park,Maoliosa McHugh St Brendans,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football F Phase Two Gp.A,St Sylvesters,Good Counsel Liffey Gaels,Bridgefield,Sean Walsh Naomh Barrog,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football G Phase Two Gp.B,Cuala,St Sylvesters,Shanganagh Park,Alan Linnane St Marys,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football H Phase Two Gp.A,Clontarf,Bye,St Annes 23,N/A,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football H Phase Two Gp.B,St Judes,St Marys S,Tymon Park,Tom Curran Faughs,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football H Phase Two Gp.C,Cabinteely,Kilmacud Crokes,Kilbogget Park,N/A,2025-07-12
-Male Football,Satuay July 12,15:30,U14 Football H Phase Two Gp.C,Templeogue Synge Street,Bye,Dolphin Park,N/A,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.2,Naomh Olaf,Thomas Ashe,Pc Ui Bhriain,Seamus Farrelly Ballinteer St. John,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.3,Beann Eadair,Round Towers (C),Pairc O Ruairc-Balkill Road,Adrian Kavanagh Naomh Mearnog,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.4,St Annes,Shankill,Bohernabreena,Tommie Clinton Croi Ro Naofa,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.4,Naomh Fionnbarra,Bye,John Paul Park,N/A,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.6,St Brigids,St Kevin-Killians,Russell Park,Eilis Ni Chearnaigh Setanta,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.7,Trinity Gaels,Bye,Donaghmede Park,N/A,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.7,St Finians (N),Bray Emmets,Newcastle,Shay Hurson Lucan Sarsfields,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.8,Clontarf,Bye,St Annes 21,N/A,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.10,Naomh Mearnog,Bye,Pairc Mearnog,N/A,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.10,St Brigids,Ballyboden St Endas,Russell Park,Luke Lacey Na Fianna,2025-07-12
-Male Football,Satuay July 12,14:00,U13 Football League Div.11,Fingallians,Bye,Kettles Lane,N/A,2025-07-12
-Male Football,Suay July 13,11:00,Minor FL Div 1,Lucan Sarsfields,St Vincents,Arthur Griffith Park,Gareth Walsh,2025-07-13
-Male Football,Suay July 13,11:00,Minor FL Div 3 South,St Peregrines Garda Westmanstown Gaels,St Marys S,Blakestown,N/A,2025-07-13
-Male Football,Suay July 13,11:00,Minor FL Div 4,Man O War,Kilmacud Crokes,Man O War,Nicky Whelan,2025-07-13
-Male Football,Suay July 13,11:00,Minor FL Div 4,St Vincents,St Peters,Pairc Na Uinsionn,Liam O Connell,2025-07-13
-Male Football,Tuesday July 15,19:30,Minor FL Div 3 South,St Patricks (P),St Finians (N),Kingswood,TBC,2025-07-15
-Hurling,Moay July 7,00:00,Go Ahead Ireland AHL Div 9,St James Gaels An Caislean,Fingallians,Drimnagh Castle,TBC,2025-07-07
-Hurling,Wednesday July 9,19:30,Minor HL Div 1,Ballinteer St Johns,St Sylvesters,Marley Park,Fergal McDonagh,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 1,Ballyboden St Endas,Na Fianna,Pairc Ui Murchu,Mark Ryan,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 1,Clontarf,St Vincents,St Annes Park,Thomas Gleeson,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 1,Lucan Sarsfields,Kilmacud Crokes,12th Lock,Rory Hanley,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 1,Raheny,St Judes,St Annes Park,N/A,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 2,Castleknock,Fingallians,Somerton Park,Colm McHale,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 2,Naomh Barrog,St Peregrines Garda Westmanstown Gaels,Pairc Barrog,Danny Harrington,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 2,Thomas Davis,St Oliver Plunkett ER,Kiltipper Road,Tom Tansey,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 2,Round Towers Lusk,Cuala,Thomas Ashe Park,Jason Buckley,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 2,Erins Isle,O Tooles,Finglas,Liam O Briain,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 3,St Maurs,Naomh Mearnog,Rush,P J Murray,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 3,St Finians (S),Commercials,Ridgewood Park Swords,Sean Dunican,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 3,Kevins,Round Towers (C),Dolphin Park,Donncha Hassey,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 3,Faughs,Lucan Sarsfields,Osprey,Declan Enright,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 4,Cuala,Scoil Ui Chonaill,Shanganagh Park,Adam Kelly,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 4,Na Fianna,Ranelagh Gaels,Collinstown Lane,Eoin Crossen,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 4,Kilmacud Crokes,St Vincents,Silver Park,Karl O Brien,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 4,Ballinteer St Johns,Naomh Olaf,Loreto Park,Tom Curran,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 4,Clontarf,Naomh Fionnbarra,St Annes Park,Ronan Carroll,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Clontarf,Skerries Harps,St Annes Park,Laurence Kelly,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Fingallians,St Patricks (D),Balheary,Stephen Dooley,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Wild Geese,Erin Go Bragh,Oldtown,John O Brien,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Beann Eadair,Setanta,Pairc Ui Ruairc,TBC,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Naomh Barrog,St Vincents,Pairc Barrog,TBC,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,St Finians (S),St Sylvesters,River Valley,TBC,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 South,Na Gaeil Oga,St Judes,St Catherines Park,TBC,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 South,Ballyboden St Endas,St Patricks (P),Ballycullen,Shay Hurson,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 5 South,St Kevin-Killians,Clanna Gael-Fontenoy,Kingswood,Eugene Murphy,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 6,St Brigids,Castleknock,Russell Park,TBC,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 6,Ballyboden St Endas,Fingallians,Ballycullen,Conor O Halloran,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 6,Kilmacud Crokes,St Oliver Plunkett ER,Silver Park,Stephen Maher,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 6,Lucan Sarsfields,Na Fianna,Arthur Griffith Park,Mick O Flaherty,2025-07-09
-Hurling,Wednesday July 9,19:30,Minor HL Div 6,Raheny,St Judes,St Annes Park,Darragh McGhee,2025-07-09
-Hurling,Thursday July 10,19:30,Go Ahead Ireland Intermediate Hurling Championship,St Peregrines,Crumlin,Blakestown,John Doherty,2025-07-10
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 1,St Annes,Cuala,Bohernabreena,Stephen Maher,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 1,Stars of Erin,Round Towers (C),Glencullen,Daniel Hussey,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 1,Whitehall Colmcille,Na Fianna,Cloghran,Ernie Brenner,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 2,Good Counsel / Liffey Gaels,Erins Isle,Liffey Park,Gerry McGeough,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 2,Setanta,Kilmacud Crokes,Club Teach Setanta,Dave Foley,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 2,St Vincents,St Peregrines,Pairc Na Uinsionn,Darren Lennon,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 1,Erin Go Bragh,Civil Service Hurling,St Catherines Park,Donal Ryan,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 1,Lucan Sarsfields,Craobh Chiarain,12th Lock,Marc MacLiam,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 1,St Maurs,Raheny,Rush,John O Brien,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 2,St James Gaels An Caislean,St Sylvesters,Drimnagh Castle,Gerard Delaney,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 2,O Dwyers,O Tooles,Balbriggan,Stephen Dooley,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 2,Kilmacud Crokes,Thomas Davis,Silver Park,Duncan Higgins,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 1,Bye,St Oliver Plunkett ER,Bye,TBC,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 1,Na Gaeil Aeracha,Ballyboden St Endas,Marino IOE,Marcus Reynolds,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 1,St Josephs OCB,Kevins,Fairview Park,Conor Kavanagh,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 1,St Marks,Geraldine P. Moran,McGee Park,Tom  Eakins,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 2,Castleknock,Beann Eadair,Somerton Park,Gareth McElhone,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 2,Na Fianna,Fingallians,St Mobhi Road,Brian Moore,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 2,Scoil Ui Chonaill,Na Gaeil Oga,Clontarf Road,Darragh McGhee,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 1,Trinity Gaels,Lucan Sarsfields,Drumnigh,Aaron  McClean,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 1,Ranelagh Gaels,Clontarf,Bushy Park,Eugene Murphy,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 1,St Patricks (D),Naomh Barrog,Donabate,Ciaran Lyng,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 2,Commercials,Wild Geese,Rathcoole,Eugene Murphy Jnr,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 2,St Finians (S),Faughs,River Valley,TBC,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 2,Wanderers,Bye,Frank Kelly Park,TBC,2025-07-11
-Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 2,Garda Westmanstown Gaels,St Kevin-Killians,Westmanstown,Caoimhín Bermingham,2025-07-11
-Hurling,Satuay July 12,18:30,Go Ahead Ireland Intermediate Hurling Championship,Kilmacud Crokes,Good Counsel / Liffey Gaels,Silver Park,Adam Kelly,2025-07-12
-Hurling,Satuay July 12,18:30,Go Ahead Ireland Intermediate Hurling Championship,Lucan Sarsfields,Round Towers (C),12th Lock,Fergus McGreevy,2025-07-12
-Hurling,Satuay July 12,18:30,Go Ahead Ireland Intermediate Hurling Championship,Scoil Ui Chonaill,St Maurs,Clontarf Road,Kevin O Donnell,2025-07-12
-Hurling,Satuay July 12,18:30,Go Ahead Ireland Premier Intermediate Hurling Championship,Commercials,St Vincents,Rathcoole,David Murphy,2025-07-12
-Hurling,Satuay July 12,18:30,Go Ahead Ireland Premier Intermediate Hurling Championship,Cuala,O Tooles,Shanganagh Park,Brian O Connor,2025-07-12
-Hurling,Satuay July 12,18:30,Go Ahead Ireland Premier Intermediate Hurling Championship,Setanta,Naomh Olaf,Club Teach Setanta,Donncha Hassey,2025-07-12
-Hurling,Satuay July 12,18:30,Go Ahead Ireland Premier Intermediate Hurling Championship,St Sylvesters,Naomh Fionnbarra,Broomfield,Ronan Carroll,2025-07-12
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 1,Skerries Harps,Ballyboden St Endas,Skerries,Eoin Crossen,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 1,St Oliver Plunkett ER,Clanna Gael-Fontenoy,Martin Savage Park,Diarmuid O Loing,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 1,St Judes,Faughs,Tymon Park,Paul Fahey,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 2,Lucan Sarsfields,Thomas Davis,12th Lock,Tom Curran,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 2,Raheny,Kevins,St Annes Park,Simon Redmond,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 2,St Marks,St Finians (S),McGee Park,Paul Cullivan,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 1,Castleknock,Ballinteer St Johns,Somerton Park,Laurence Kelly,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 1,Craobh Chiarain,Ballyboden St Endas,Clonshaugh,Eamon Morris,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 1,St Patricks (P),Na Fianna,Glenauline Park,Padraig Furlong,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 2,Civil Service Hurling,Wild Geese,Islandbridge,Richard Lancaster,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 2,Cuala,Kilmacud Crokes,Shanganagh Park,Alan Maxwell,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 2,St Brigids,Whitehall Colmcille,Russell Park,Jimmy  Frawley,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 1,St Sylvesters,Na Gaeil Oga,Broomfield,Ronan Smith,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 1,Naomh Olaf,Castleknock,Pairc Ui Bhriain,Kieron Young,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 1,St Judes,Naomh Barrog,Tymon Park,Tom  Eakins,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 2,Commercials,Clontarf,Rathcoole,Pat Murphy,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 2,Naomh Fionnbarra,Fingallians,Pope John Paul ll Park,Shay Hurson,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 2,St Brigids,St Brendans,Russell Park,Gerry McGeough,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 1,Crumlin,Ballyboden St Endas,Pearse Park,Conor O Halloran,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 1,Faughs,Ballinteer St Johns,Osprey,Declan Enright,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 1,St Patricks (D),Pobal Parnell,Donabate,John O Brien,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 2,Erins Isle,Trinity Gaels,Finglas,Darren Lennon,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 2,Kevins,Naomh Mearnog,Dolphin Park,Gerard Delaney,2025-07-13
-Hurling,Suay July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 2,Round Towers Lusk,St Vincents,Thomas Ashe Park,Stephen Shields,2025-07-13
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 1 Spring,Kilmacud Crokes,Ballyboden St Endas,Pairc De Burca,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 1 Spring,Naomh Olaf,Lucan Sarsfields,Pairc Ui Bhrian,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 2 Spring,Templeogue Synge Street,St Judes,Bushy Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 3 Spring,Trinity Gaels,St Vincents,Drumnigh,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 3 Spring,Foxrock Cabinteely,St Patricks Donabate,Kilboggett Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 3 Spring,Raheny,Erins Isle,St Annes No 10,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 3 Spring,Whitehall Colmcille,O Dwyers,Ellenfield,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 4 Spring,St Kevins/Killians,Shankill,Kilnamanagh,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 4 Spring,St Annes,Thomas Davis,Boharnabrenna,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 4 Spring,Ballyboden St Endas,St Finians Newcastle,Cherryfield,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 4 Spring,Ranelagh Gaels,Clanna Gael/Fontenoy,Cathal Brugha Barracks,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 4 Spring,St Oliver Plunkett ER,Round Towers Clondalkin,Martin Savage Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 5 Spring,Lucan Sarsfields,Naomh Olaf,12th Lock,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 5 Spring,Castleknock,Naomh Mearnog,Somerton,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 5 Spring,St Brigids,St Sylvesters,Russell Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 6 Spring,Garda/Westmanstown Gaels,Round Towers Lusk,Jerome Twomey Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 6 Spring,Ballymun Kickhams,Bray Emmets,Pairc Ciceam,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 6 Spring,Fingal Ravens,O Tooles,Rolestown,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 6 Spring,Stars of Erin,St Patricks Palmerstown,Glencullen,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 6 Spring,Pobal Parnell,St Marys Saggart,Chanel,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 7 Spring,O Dwyers,Erins Isle,Bremore Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 7 Spring,St Maurs,St Finians Swords,Rush,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 7 Spring,St Peregrines,Raheny,Blakestown,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 7 Spring,St Vincents,Whitehall Colmcille,Pairc Naomh Uinsionn,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 7 Spring,Templeogue Synge Street,Naomh Barrog,Bushy Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 8 Spring,St Patricks Donabate,Erin Go Bragh,Donabate,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 8 Spring,Garristown,Tyrrelstown,Garristown,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 8 Spring,Na Gaeil Oga,Skerries Harps,Phoenix Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 8 Spring,St Margarets,Geraldine P Morans,St Margarets,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 9 Spring,St Sylvesters,St Brigids,Broomfield,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 9 Spring,Na Fianna,St Judes,St Mobhi Road,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 9 Spring,Lucan Sarsfields,Ballinteer St Johns,12th Lock,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 9 Spring,Kilmacud Crokes,Clontarf,Pairc De Burca,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 9 Spring,Ballyboden St Endas,Fingallians,Cherryfield,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 10 Spring,Thomas Davis,Round Towers Lusk,Kiltipper Road,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 10 Spring,Ranelagh Gaels,Garda/Westmanstown Gaels,Cathal Brugha Barracks,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 10 Spring,Good Counsel/Liffey Gaels,Templeogue Synge Street,Galtymore Road,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 10 Spring,Clanna Gael/Fontenoy,Castleknock,Sean Moore Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 11 Spring,Skerries Harps,St Peregrines,Skerries,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 11 Spring,St Marks,Whitehall Colmcille,McGee Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 11 Spring,Naomh Olaf,St Brendans,Pairc Ui Bhrian,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 11 Spring,Clontarf,Raheny,St Annes No 34,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 12 Spring,Tyrrelstown,Fingallians,Tyrellstown,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 12 Spring,Erins Isle,Innisfails,Finglas,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 12 Spring,St Sylvesters,St Oliver Plunkett ER,Broomfield,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 12 Spring,St Colmcilles,St Vincents,Balheary,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 12 Spring,O Dwyers,St Finians Swords,Bremore Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 13 Spring,Kilmacud Crokes,Na Fianna,Pairc De Burca,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 13 Spring,St Brigids,Lucan Sarsfields,Russell Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 13 Spring,Templeogue Synge Street,St Judes,Bushy Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U12 Group 13 Spring,Clontarf,Ballinteer St Johns,St Annes No 34,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 4 Team Group X,Castleknock,Trinity Gaels,Somerton,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 4 Team Group X,St Vincents,Raheny,Pairc Naomh Uinsionn,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 4 Team Group X,Erins Isle,Whitehall Colmcille,Finglas,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 4 Team Group Y,Ballyboden St Endas,Cuala,Cherryfield,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 4 Team Group Y,Templeogue Synge Street,Ballyboden St Endas,Bushy Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 4 Team Group Y,Kilmacud Crokes,Lucan Sarsfields,Pairc De Burca,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group W,St Sylvesters,St Peregrines,Broomfield,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group W,St Oliver Plunkett ER,Naomh Fionnbarra,Martin Savage Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group W,Naomh Barrog,St Brigids,Pairc Barrog,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group W,Na Fianna,Clontarf,St Mobhi Road,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group X,St Finians Swords,St Patricks Donabate,River Valley,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group X,Fingallians,Clontarf,Balheary,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group X,Na Fianna,St Sylvesters,St Mobhi Road,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group Y,Ballinteer St Johns,Naomh Olaf,Marley Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group Y,St Marys Saggart,St Judes,Saggart,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group Z,Geraldine P Morans,Kilmacud Crokes,Cornelscourt,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 3 Team Group Z,Naomh Olaf,Ballinteer St Johns,Pairc Ui Bhrian,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group X,Ballymun Kickhams,Scoil Ui Chonaill,Pairc Ciceam,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group X,Beann Eadair,St Brigids,Howth,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group Y,O Tooles,Round Towers Lusk/Man O War,Pairc ui Thuathaill,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group Y,Garristown,St Peters,Garristown,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group Y,Fingallians,St Maurs,Balheary,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group Z,St Judes,Ranelagh Gaels,Tymon North,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group Z,St Finians Newcastle,Good Counsel/Liffey Gaels,Newcastle,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group Z,Na Gaeil Oga,St Patricks Palmerstown,Phoenix Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,12:00,LGFA U10 2 Team Group Z,Garda/Westmanstown Gaels,Bray Emmets,Jerome Twomey Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 4 Team Group X,Kilmacud Crokes,Naomh Olaf,Pairc De Burca,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 4 Team Group X,Cuala,Templeogue Synge Street,Meadowvale,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 4 Team Group Y,St Brigids,Na Fianna,Russell Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 4 Team Group Y,Fingallians,Castleknock,Balheary,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 4 Team Group Y,St Patricks Donabate,Raheny,Donabate,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group Y,St Oliver Plunkett ER,St Sylvesters,Martin Savage Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group Y,Clontarf,St Finians Swords,St Annes No 34,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group Y,Naomh Mearnog,Skerries Harps,Portmarnock,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group V,Beann Eadair,Erins Isle,Howth,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group V,Man O War/Scoil Ui Chonail/St Monicas,Clontarf,Clontarf Road,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group V,Naomh Barrog,St Sylvesters,Pairc Barrog,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group V,Naomh Mearnog,St Vincents,Portmarnock,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Z,Stars of Erin,Robert Emmets,Glencullen,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Z,Geraldine P Morans,Garda/Westmanstown Gaels,Cornelscourt,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Z,Ballyfermot Gaels,St Patricks Palmerstown,Ballyfermot,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Z,St Kevins/Killians,St Annes,Kilnamanagh,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Z,Wanderers,Castleknock,Frank Kelly Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Y,St Maurs,O Tooles,Rush,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Y,O Dwyers,St Peters,Bremore Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Y,Na Dubhgall,Ballymun Kickhams,Racecourse Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 2 Team Group Y,Craobh Chiaran,Trinity Gaels,Clonshaugh,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group Z,Ballyboden St Endas,St Marys Saggart,Cherryfield,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group Z,Foxrock Cabinteely,Bray Emmets,Kilboggett Park,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group Z,Round Towers Clondalkin,Thomas Davis,Clondalkin,TBC,2025-07-05
-Ladies Football,Satuay July 5,13:00,LGFA U11 3 Team Group Z,Shankill,Ballyboden St Endas,Shanganagh Cliffs,TBC,2025-07-05
-Ladies Football,Suay July 6,13:00,LGFA U14 League Div 12 S,Kilmacud Crokes,Ballyfermot Gaels,Pairc De Burca,Derek Oman,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 4 Team Group Y,Whitehall Colmcille,St Finians Swords,Ellenfield,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 4 Team Group Y,St Oliver Plunkett ER,Erins Isle,Martin Savage Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 4 Team Group Y,Na Fianna,Na Fianna,St Mobhi Road,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group V,Raheny,Castleknock,St Annes No 10,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group W,Castleknock,Raheny,Somerton,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group W,Naomh Fionnbarra,St Sylvesters,Pope John Paul Park II,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group X,Skerries Harps,Fingal Ravens,Skerries,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group X,St Maurs,St Patricks Donabate,Rush,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group Y,Round Towers Clondalkin,Naomh Olaf,Clondalkin,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group Y,Ranelagh Gaels,Templeogue Synge Street,Cathal Brugha Barracks,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group Y,Foxrock Cabinteely,Ballinteer St Johns,Kilboggett Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group Y,Kilmacud Crokes,Ballyboden St Endas,Pairc De Burca,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group Y,Templeogue Synge Street,Clanna Gael/Fontenoy,Bushy Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 3 Team Group Y,Thomas Davis,Kilmacud Crokes,Kiltipper Road,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U 8 2 Team Group X,Ballymun Kickhams,Erin Go Bragh,Pairc Ciceam,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U 8 2 Team Group X,Trinity Gaels,Beann Eadair,Drumnigh,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 2 Team Group Y,Round Towers Lusk/Scoil Ui Chonail,St Peters,Clontarf Road,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 2 Team Group Y,Garristown,Fingallians,Garristown,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 2 Team Group Y,O Dwyers,St Brendans /Innisfails,Bremore Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 2 Team Group Z,Garda Westmanstown Gaels/St Finians Newcastle,Stars of Erin,Jerome Twomey Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 2 Team Group Z,St Marys Saggart,St Patricks Palmerstown,Saggart,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 2 Team Group Z,Bray Emmets/Shankill,Croi Ro Naofa/Good Counsel Liffey Gaels,Shanganagh Cliffs,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 4 Team Group X,St Judes,Ballyboden St Endas,Tymon North,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 4 Team Group X,Lucan Sarsfields,Cuala,12th Lock,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U8 4 Team Group X,Ballyboden St Endas,Ballinteer St Johns,Cherryfield,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 4 team group Y,Na Fianna,Na Fianna,St Mobhi Road,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 4 team group Y,St Finians Swords,Fingallians,River Valley,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 4 team group Y,St Sylvesters,Erins Isle,Broomfield,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA u9 3 Team Group V,Naomh Olaf,St Judes,Pairc Ui Bhrian,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA u9 3 Team Group V,Ballinteer St Johns,Ranelagh Gaels,Marley Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 3 Team Group Y,St Oliver Plunkett ER,Whitehall Colmcille,Martin Savage Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 3 Team Group Y,Raheny,St Patricks Donabate,St Annes No 10,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 3 Team Group Y,Clontarf,Naomh Mearnog,St Annes No 34,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 3 Team Group Y,Castleknock,Erin Go Bragh,Somerton,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 2 Team Group Y,Thomas Davis,Bray Emmets,Kiltipper Road,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 2 Team Group Y,St Finians Newcastle,St Kevins/Killians,Newcastle,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 2 Team Group Y,Shankill,Foxrock Cabinteely,Shanganagh Cliffs,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 2 Team Group Y,Geraldine P Morans,St Patricks Palmerstown,Cornelscourt,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 4 Team Group X,Round Towers Clondalkin,Naomh Olaf,Clondalkin,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 4 Team Group X,Ballyboden St Endas,Cuala,Cherryfield,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 2 Team Group X,Trinity Gaels,St Brigids,Drumnigh,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 2 Team Group X,Skerries Harps,Craobh Chiarain/Innisfails,Skerries,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U 9 3 Team Group W,Ballyboden St Endas,Wanderers/Robert Emmets and Garda Westmanstown Gaels,Cherryfield,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U 9 3 Team Group W,Ballinteer St Johns,St Annes,Marley Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U 9 3 Team Group W,St Marys Saggart,Thomas Davis,Saggart,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 3 Team Group X,Ballymun Kickhams,Raheny,Pairc Ciceam,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 3 Team Group X,St Brigids,Castleknock,Russell Park,TBC,2025-07-06
-Ladies Football,Suay July 6,10:00,LGFA U9 3 Team Group X,Whitehall Colmcille,St Sylvesters,Ellenfield,TBC,2025-07-06
-Ladies Football,Moay July 7,19:30,LGFA Go-Ahead Adult League Div 11,St Margarets,St Brendans,St Margarets,Orla Simpson,2025-07-07
-Ladies Football,Wednesday July 9,19:30,LGFA Go-Ahead Adult Cup Div 7A,St Brendans,Fingallians,Longmeadows,Niall O Hara,2025-07-09
-Ladies Football,Wednesday July 9,19:30,LGFA Go-Ahead Adult League Div 3,Scoil Ui Chonaill,Na Fianna,Clontarf Road,Anthony Brennan,2025-07-09
-Ladies Football,Wednesday July 9,19:30,LGFA Go-Ahead Adult League Div 6,Wanderers,O Tooles,Frank Kelly Park,Pat Murphy,2025-07-09
-Ladies Football,Moay July 14,19:30,LGFA Go-Ahead Adult League Div 8,Beann Eadair,Craobh Chiaran,Howth,Vincent  Potter,2025-07-14
-Ladies Football,Wednesday July 16,19:30,LGFA Go-Ahead Adult Cup Div 7A,Ranelagh Gaels,St Brendans,Bushy Park,Reg Harbron,2025-07-16
-Ladies Football,Wednesday July 16,19:30,LGFA Go-Ahead Adult Cup Div 11A,St Brendans,Na Gaeil Aeracha,Longmeadows,John Doherty,2025-07-16
+sport,date,time,competition,home_team,away_team,venue,referee,scraped_date,age_id
+Male Football,Friday July 4,19:30,Minor FL Div 1,St Sylvesters,Kilmacud Crokes,Broomfield,Ian Howley,2025-07-04,3337
+Male Football,Friday July 4,19:30,Minor FL Div 2,Castleknock,Whitehall Colmcille,Somerton Park,Pat Murphy,2025-07-04,3337
+Male Football,Friday July 4,18:30,Minor FL Div 3 North,St Maurs,Round Towers Lusk,Rush,TBC,2025-07-04,3337
+Male Football,Friday July 4,19:30,Minor FL Div 3 North,Naomh Mearnog,Scoil Ui Chonaill,Portmarnock,Derek Greene,2025-07-04,3337
+Male Football,Friday July 4,19:30,Minor FL Div 5 North,Fingallians,Skerries Harps,Balheary,Vinny Whelan,2025-07-04,3337
+Male Football,Friday July 4,19:30,Minor FL Div 5 South,St Kevin-Killians,Ranelagh Gaels,Kingswood,Gerry McGeough,2025-07-04,3337
+Male Football,Friday July 4,19:30,Minor FL Div 6 South,Wanderers,Shankill / Stars of Erin,Frank Kelly Park,Adam  Doyle,2025-07-04,3337
+Male Football,Friday July 4,19:45,Go Ahead Ireland AFL Div 1,Ballyboden St Endas,Ballymun Kickhams,Pairc Ui Murchu,Seamus Farrelly,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 1,Fingal Ravens,Kilmacud Crokes,Rolestown,Barry Tiernan,2025-07-04,3315
+Male Football,Friday July 4,19:15,Go Ahead Ireland AFL Div 2,Naomh Fionnbarra,Kilmacud Crokes,Pope John Paul ll Park,Ian Howley,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 2,Templeogue Synge Street,Naomh Mearnog,Dolphin Park,N/A,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 3,Ballyboughal,Trinity Gaels,Ballyboughal,P J Murray,2025-07-04,3315
+Male Football,Friday July 4,19:45,Go Ahead Ireland AFL Div 3,St Maurs,St Patricks (P),Rush,David Sweeney,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 11A,Ballyfermot Gaels,Ranelagh Gaels,The Gaels,N/A,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 11A,Beann Eadair,Cabinteely,Pairc Ui Ruairc,Chris Nolan,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 11A,Castleknock,Clanna Gael-Fontenoy,Somerton Park,Des Molloy,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 11A,Scoil Ui Chonaill,Na Gaeil Aeracha,Clontarf Road,Dermot Deasy,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 11A,St Marys S,St James Gaels An Caislean,Saggart,Caoimhín Bermingham,2025-07-04,3315
+Male Football,Friday July 4,19:30,Go Ahead Ireland AFL Div 11A,St Oliver Plunkett ER,St Maurs,Martin Savage Park,Paul Harte,2025-07-04,3315
+Male Football,Friday July 4,19:30,U14 Football D Phase Two Gp.A,Ballinteer St Johns,Garda Westmanstown Gaels,Marlay Pk,Senan Finucane Templeogue Synge Street,2025-07-04,3327
+Male Football,Friday July 4,20:00,U14 Football D Phase Two Gp.B,St Annes,Cuala,Bohernabreena,Tommie Clinton Croi Ro Naofa,2025-07-04,3327
+Male Football,Saturday July 5,11:00,Go Ahead Ireland AFL Div 2,Fingallians,Na Fianna,Lawless Park,David O Connor,2025-07-05,3315
+Male Football,Saturday July 5,11:00,Go Ahead Ireland AFL Div 2,Pobal Parnell,Raheny,St Davids,Sean McCarthy,2025-07-05,3315
+Male Football,Saturday July 5,12:30,Go Ahead Ireland AFL Div 2,Skerries Harps,St Brigids,Skerries,Kevin Doherty,2025-07-05,3315
+Male Football,Saturday July 5,13:00,Go Ahead Ireland AFL Div 3,Cuala,St Margarets,Hyde Park,David Murphy,2025-07-05,3315
+Male Football,Saturday July 5,13:30,Go Ahead Ireland AFL Div 3,St Annes,Clann Mhuire,Bohernabreena,Paul Faughnan,2025-07-05,3315
+Male Football,Saturday July 5,10:15,Go Ahead Ireland AFL Div 4,St Vincents,O Dwyers,Pairc Na Uinsionn,Paul Harte,2025-07-05,3315
+Male Football,Saturday July 5,10:30,Go Ahead Ireland AFL Div 4,St Sylvesters,Castleknock,Somerton Park,Chris Nolan,2025-07-05,3315
+Male Football,Saturday July 5,12:30,Go Ahead Ireland AFL Div 5,Round Towers (C),Cuala,Community Centre,N/A,2025-07-05,3315
+Male Football,Saturday July 5,10:00,U13 Football League Div.6,Raheny,Naomh Mearnog,St Annes 7,GeorgeWilliams Trinity Gaels,2025-07-05,3326
+Male Football,Saturday July 5,11:00,U13 Football League Div.11,Kilmacud Crokes,Whitehall Colmcille,Deerpark,Caomhan Bermingham Naomh Olaf,2025-07-05,3326
+Male Football,Saturday July 5,11:30,U13 Football League Div.11,Raheny,O Dwyers,St Annes 7,GeorgeWilliams Trinity Gaels,2025-07-05,3326
+Male Football,Sunday July 6,11:00,Minor FL Div 1,Cuala,Lucan Sarsfields,Hyde Park,Adam Kelly,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 2,Ballymun Kickhams,Fingallians,Pairc Ciceam,N/A,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 2,Naomh Barrog,Round Towers (C),Pairc Barrog,Tommy Byrne,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 2,Raheny,Ballinteer St Johns,St Annes Park,Damien Burnett,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 3 North,O Tooles,Fingal Ravens,Blunden Drive,Laurence Kelly,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 3 North,Erins Isle,Thomas Ashe,Finglas,Tony Clarke,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 3 South,Naomh Olaf,St Judes,Pairc Ui Bhriain,TBC,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 3 South,St Patricks (P),Ballyboden St Endas,Glenauline Park,N/A,2025-07-06,3337
+Male Football,Sunday July 6,12:00,Minor FL Div 4,Na Fianna,Castleknock,St Mobhi Road,Shay Hurson,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 4,Lucan Sarsfields,Beann Eadair,Arthur Griffith Park,Paul Cullivan,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 4,Clontarf,Trinity Gaels,St Annes Park,Ian Smyth,2025-07-06,3337
+Male Football,Sunday July 6,10:15,Minor FL Div 5 North,Na Fianna,O Dwyers,St Mobhi Road,Philip Cullen,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 5 North,Castleknock,St Maurs,Somerton Park,Richard Lancaster,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 5 South,Round Towers (C),Templeogue Synge Street,Community Centre,Edward McAuley,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 5 South,Ballyboden St Endas,Cuala,Ballycullen,N/A,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 5 South,Clanna Gael-Fontenoy,Geraldine P. Moran,Sean Moore Park,Diarmuid  White,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 5 South,St Judes,Ballinteer St Johns,Tymon Park,N/A,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 North,Trinity Gaels,Na Fianna,Drumnigh,Marcus Reynolds,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 North,Whitehall Colmcille,St Patricks (D),Belcamp Park,N/A,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 North,St Sylvesters,St Peters,Broomfield,Conor Flaherty,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 North,Thomas Ashe,Naomh Barrog,St Margarets,Ciaran Molloy,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 Mid County,St Vincents,Robert Emmets,Pairc Na Uinsionn,TBC,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 Mid County,Crumlin,Templeogue Synge Street,Pearse Park,Aaron Murphy,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 Mid County,Good Counsel Liffey Gaels,Erin Go Bragh,Liffey Park,Eugene Murphy,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 Mid County,Lucan Sarsfields,St Brigids,Arthur Griffith Park,Caoimhín Bermingham,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 South,Kilmacud Crokes,Cuala,Pairc de Burca,N/A,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 South,Ballyboden St Endas,Thomas Davis,Ballycullen,Declan Enright,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 South,Naomh Olaf,St Judes,Pairc Ui Bhriain,Mick Gilvarry,2025-07-06,3337
+Male Football,Sunday July 6,11:00,Minor FL Div 6 South,Ranelagh Gaels,Ballinteer St Johns,Bushy Park,TBC,2025-07-06,3337
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 1,Ballinteer St Johns,Na Fianna,Marley Park,Darren Delaney,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 1,St Judes,Cuala,Tymon Park,Andrew Cummins,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 1,St Marys S,St Oliver Plunkett ER,Saggart,Dan Stynes,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 1,Thomas Davis,Lucan Sarsfields,Kiltipper Road,Gareth Walsh,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 2,Scoil Ui Chonaill,Naomh Olaf,Clontarf Road,E Dromgoole English,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 2,Naomh Barrog,Round Towers Lusk,Pairc Barrog,Luke Lacey,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 2,Whitehall Colmcille,St Vincents,Collins Avenue,Jim Hussey,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 3,Round Towers (C),Erins Isle,Monastery Road,Keith Tighe,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 3,Clontarf,Thomas Davis,St Annes Park,Colm McCarthy,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 3,Clanna Gael-Fontenoy,St Finians (S),Sean Moore Park,Colin Doyle,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 3,Ballymun Kickhams,Ballyboden St Endas,Pairc Ciceam,N/A,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 4,Geraldine P. Moran,Fingal Ravens,Ballyogan,Robbie Glennon,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 4,Lucan Sarsfields,St Judes,12th Lock,Martin Meehan,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 4,Man O War,Garristown,Man O War,Robert Quinn,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 4,O Tooles,Ballinteer St Johns,Blunden Drive,Darren Lennon,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 4,St Peregrines,St Finians (N),Blakestown,Fergus McGreevy,2025-07-06,3315
+Male Football,Sunday July 6,10:15,Go Ahead Ireland AFL Div 4,Good Counsel / Liffey Gaels,Kilmacud Crokes,Galtymore Road,Craig McKeown,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 5,St Marks,Fingallians,McGee Park,Alan Linnane,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 5,Templeogue Synge Street,St Patricks (D),Dolphin Park,Tony Lambe,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 5,St Oliver Plunkett ER,Craobh Chiarain,Martin Savage Park,N/A,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 5,St Vincents,Whitehall Colmcille,Pairc Na Uinsionn,Dermot Deasy,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 5,St Brendans,Thomas Davis,Grangegorman,Simon Redmond,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 5,Skerries Harps,Ballyboden St Endas,Skerries,John O Brien,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 5,Crumlin,Naomh Olaf,Pearse Park,Brian O Brien,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 6,Ballyfermot Gaels,Castleknock,The Gaels,Declan Enright,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 6,Kilmacud Crokes,St Margarets,Pairc de Burca,Tom  Eakins,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 6,Ranelagh Gaels,Civil Service Football,Bushy Park,Senan Finucane,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 6,Round Towers Lusk,Raheny,Thomas Ashe Park,Niall Murray,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 6,St Brigids,St Maurs,Russell Park,Padraig Furlong,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 6,St James Gaels An Caislean,St Judes,Iveagh Grounds,Hugh  Murphy,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 6,St Monicas,Beann Eadair,Edenmore,Des Molloy,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 6,Wanderers,Na Fianna,Frank Kelly Park,Joe Aherne,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 7,Stars of Erin,Na Gaeil Oga,Glencullen,Tom Clinton,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 7,St Sylvesters,Clanna Gael-Fontenoy,Broomfield,Kevin O Donnell,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 7,St Marys S,Templeogue Synge Street,Saggart,Marc MacLiam,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 7,St Kevin-Killians,Na Fianna,Kingswood,Brendan Gahan,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 7,Clontarf,Scoil Ui Chonaill,St Annes Park,N/A,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 7,St Annes,Erins Isle,Bohernabreena,Tom Curran,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 7,Erin Go Bragh,Lucan Sarsfields,Hazelbury Park,N/A,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 7,St Patricks (D),Pobal Parnell,Donabate,Derek Andrews,2025-07-06,3315
+Male Football,Sunday July 6,11:00,Go Ahead Ireland AFL Div 8,Bank of Ireland,Skerries Harps,Ringsend Park,TBC,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 8,Ballinteer St Johns,Naomh Barrog,Marley Park,Noel Thompson,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 8,Clann Mhuire,Kilmacud Crokes,Naul,Tommy Flood,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 8,Naomh Fionnbarra,St Brigids,Pope John Paul ll Park,Anthony Brennan,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 8,Naomh Mearnog,St Vincents,Portmarnock,Stephen Shields,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 8,Raheny,Whitehall Colmcille,St Annes Park,Brian Moore,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 8,Shankill Gaa,Ballymun Kickhams,Stonebridge Road,Kieron Young,2025-07-06,3315
+Male Football,Sunday July 6,12:00,Go Ahead Ireland AFL Div 8,St Peregrines,Ballyboden St Endas,Blakestown,John Frier,2025-07-06,3315
+Male Football,Monday July 7,19:30,Minor FL Div 3 North,St Sylvesters,Skerries Harps,Broomfield,Gavin Donegan,2025-07-07,3337
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 9,Good Counsel Liffey Gaels,Ballyboughal,Galtymore Road,Simon Murphy,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 9,Garda Westmanstown Gaels,Cuala,Westmanstown,Alan Linnane,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 9,Trinity Gaels,Na Fianna,Drumnigh,Ernie Brenner,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 9,Robert Emmets,St Finians (N),Green Trees Park,N/A,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 9,Raheny,Portobello,St Annes Park,Simon Redmond,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 9,St Brigids,Naomh Olaf,Russell Park,Padraig Furlong,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 9,Fingallians,St Patricks (P),Lawless Park,Stephen Shields,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 9,Erins Isle,Lucan Sarsfields,Finglas,Liam O Connell,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10B,Stars of Erin,St Patricks (D),Glencullen,TBC,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10B,Geraldine P. Moran,Kilmacud Crokes,Ballyogan,Tom  Eakins,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10B,Whitehall Colmcille,Na Fianna,Belcamp Park,Conor Flaherty,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10B,Thomas Davis,Templeogue Synge Street,Kiltipper Road,Brian Collins,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10B,St Marks,Man O War,McGee Park,Robert Doyle,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10B,St Colmcilles,Round Towers (C),Balheary,Timmy Doyle,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10B,Ballinteer St Johns,Ballymun Kickhams,Loreto Park,Kieron Young,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10B,Craobh Chiarain,Crumlin,Clonshaugh,John Frier,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 11B,Pobal Parnell,O Dwyers,Belcamp Park,N/A,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 11B,St Sylvesters,St Josephs OCB,Broomfield,Marcus Reynolds,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 11B,Croi Ro Naofa,Fingallians,Sancta Maria,Adam  Doyle,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 11B,Ballyboden St Endas,Clontarf,Ballycullen,Nicholas  Gogarty,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 11B,Wanderers,Na Gaeil Oga,Frank Kelly Park,David  Garland,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 11B,Na Dubh Ghall,Erin Go Bragh,Hazelbury Park,TBC,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10A,St Margarets,St Judes,St Margarets,Aaron  Douglas,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10A,St Finians (S),Castleknock,River Valley,Nicky Whelan,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10A,Rosmini Gaels,Fingal Ravens,Plunketts VEC,TBC,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10A,O Tooles,St Annes,Blunden Drive,Conor Kavanagh,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10A,Lucan Sarsfields,Garristown,Arthur Griffith Park,Anthony Brennan,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10A,Ballyboden St Endas,Naomh Barrog,Ballycullen,Tom Clinton,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10A,St Brigids,Naomh Mearnog,Russell Park,TBC,2025-07-07,3315
+Male Football,Monday July 7,19:30,Go Ahead Ireland AFL Div 10A,O Dwyers,St Brendans,Balbriggan,Robert Quinn,2025-07-07,3315
+Male Football,Wednesday July 9,19:30,Go Ahead Ireland AFL Div 5,Whitehall Colmcille,St Marks,Cloghran,Tommy Byrne,2025-07-09,3315
+Male Football,Wednesday July 9,19:30,Go Ahead Ireland AFL Div 6,Raheny,St Monicas,St Annes Park,Colin Doyle,2025-07-09,3315
+Male Football,Wednesday July 9,19:30,U14 Football H Phase Two Gp.A,Ballyboden St Endas,Garda Westmanstown Gaels,Cherryfield,N/A,2025-07-09,3327
+Male Football,Thursday July 10,19:00,U13 Football League Div.1,Cuala,Ballyboden St Endas,Thomastown,Alan Linnane St Marys,2025-07-10,3326
+Male Football,Friday July 11,19:30,Minor FL Div 1,Kilmacud Crokes,St Patricks (D),Silver Park,Andrew Cummins,2025-07-11,3337
+Male Football,Saturday July 12,14:00,U13 Football League Div.2,Naomh Olaf,Thomas Ashe,Pc Ui Bhriain,Seamus Farrelly Ballinteer St. John,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.3,Beann Eadair,Round Towers (C),Pairc O Ruairc-Balkill Road,Adrian Kavanagh Naomh Mearnog,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.4,Naomh Fionnbarra,Bye,John Paul Park,N/A,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.4,St Annes,Shankill,Bohernabreena,Tommie Clinton Croi Ro Naofa,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.6,St Brigids,St Kevin-Killians,Russell Park,Eilis Ni Chearnaigh Setanta,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.7,St Finians (N),Bray Emmets,Newcastle,Shay Hurson Lucan Sarsfields,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.7,Trinity Gaels,Bye,Donaghmede Park,N/A,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.8,Clontarf,Bye,St Annes 21,N/A,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.10,St Brigids,Ballyboden St Endas,Russell Park,Luke Lacey Na Fianna,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.10,Naomh Mearnog,Bye,Pairc Mearnog,N/A,2025-07-12,3326
+Male Football,Saturday July 12,14:00,U13 Football League Div.11,Fingallians,Bye,Kettles Lane,N/A,2025-07-12,3326
+Male Football,Saturday July 12,15:30,U14 Football B Phase Two Gp.B,St Vincents,St Finians (N),PNU,Danny Harrington Naomh Mearnog,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football C Phase Two Gp.B,St Maurs,Erin Go Bragh,Rush,Daniel Burke St Patricks D,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football E Phase Two Gp.A,Beann Eadair,Lucan Sarsfields,Pairc O Ruairc-Balkill Road,Adrian Kavanagh Naomh Mearnog,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football E Phase Two Gp.B,Crumlin,St Judes,Pearse Park,Maoliosa McHugh St Brendans,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football E Phase Two Gp.B,St Peregrines,Na Gaeil Oga,Blakestown Rd,Tom Tansey St Brendans,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football F Phase Two Gp.A,St Sylvesters,Good Counsel Liffey Gaels,Bridgefield,Sean Walsh Naomh Barrog,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football G Phase Two Gp.B,Cuala,St Sylvesters,Shanganagh Park,Alan Linnane St Marys,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football H Phase Two Gp.A,Clontarf,Bye,St Annes 23,N/A,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football H Phase Two Gp.B,St Judes,St Marys S,Tymon Park,Tom Curran Faughs,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football H Phase Two Gp.C,Cabinteely,Kilmacud Crokes,Kilbogget Park,N/A,2025-07-12,3327
+Male Football,Saturday July 12,15:30,U14 Football H Phase Two Gp.C,Templeogue Synge Street,Bye,Dolphin Park,N/A,2025-07-12,3327
+Male Football,Sunday July 13,11:00,Minor FL Div 1,Lucan Sarsfields,St Vincents,Arthur Griffith Park,Gareth Walsh,2025-07-13,3337
+Male Football,Sunday July 13,11:00,Minor FL Div 3 South,St Peregrines Garda Westmanstown Gaels,St Marys S,Blakestown,N/A,2025-07-13,3337
+Male Football,Sunday July 13,11:00,Minor FL Div 4,Man O War,Kilmacud Crokes,Man O War,Nicky Whelan,2025-07-13,3337
+Male Football,Sunday July 13,11:00,Minor FL Div 4,St Vincents,St Peters,Pairc Na Uinsionn,Liam O Connell,2025-07-13,3337
+Male Football,Tuesday July 15,19:30,Minor FL Div 3 South,St Patricks (P),St Finians (N),Kingswood,TBC,2025-07-15,3337
+Hurling,Monday July 7,00:00,Go Ahead Ireland AHL Div 9,St James Gaels An Caislean,Fingallians,Drimnagh Castle,TBC,2025-07-07,3330
+Hurling,Wednesday July 9,19:30,Minor HL Div 1,Ballinteer St Johns,St Sylvesters,Marley Park,Fergal McDonagh,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 1,Ballyboden St Endas,Na Fianna,Pairc Ui Murchu,Mark Ryan,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 1,Clontarf,St Vincents,St Annes Park,Thomas Gleeson,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 1,Lucan Sarsfields,Kilmacud Crokes,12th Lock,Rory Hanley,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 1,Raheny,St Judes,St Annes Park,N/A,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 2,Castleknock,Fingallians,Somerton Park,Colm McHale,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 2,Naomh Barrog,St Peregrines Garda Westmanstown Gaels,Pairc Barrog,Danny Harrington,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 2,Thomas Davis,St Oliver Plunkett ER,Kiltipper Road,Tom Tansey,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 2,Round Towers Lusk,Cuala,Thomas Ashe Park,Jason Buckley,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 2,Erins Isle,O Tooles,Finglas,Liam O Briain,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 3,St Maurs,Naomh Mearnog,Rush,P J Murray,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 3,St Finians (S),Commercials,Ridgewood Park Swords,Sean Dunican,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 3,Kevins,Round Towers (C),Dolphin Park,Donncha Hassey,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 3,Faughs,Lucan Sarsfields,Osprey,Declan Enright,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 4,Cuala,Scoil Ui Chonaill,Shanganagh Park,Adam Kelly,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 4,Na Fianna,Ranelagh Gaels,Collinstown Lane,Eoin Crossen,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 4,Kilmacud Crokes,St Vincents,Silver Park,Karl O Brien,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 4,Ballinteer St Johns,Naomh Olaf,Loreto Park,Tom Curran,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 4,Clontarf,Naomh Fionnbarra,St Annes Park,Ronan Carroll,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Clontarf,Skerries Harps,St Annes Park,Laurence Kelly,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Fingallians,St Patricks (D),Balheary,Stephen Dooley,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Wild Geese,Erin Go Bragh,Oldtown,John O Brien,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Beann Eadair,Setanta,Pairc Ui Ruairc,TBC,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,Naomh Barrog,St Vincents,Pairc Barrog,TBC,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 North,St Finians (S),St Sylvesters,River Valley,TBC,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 South,Na Gaeil Oga,St Judes,St Catherines Park,TBC,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 South,Ballyboden St Endas,St Patricks (P),Ballycullen,Shay Hurson,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 5 South,St Kevin-Killians,Clanna Gael-Fontenoy,Kingswood,Eugene Murphy,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 6,St Brigids,Castleknock,Russell Park,TBC,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 6,Ballyboden St Endas,Fingallians,Ballycullen,Conor O Halloran,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 6,Kilmacud Crokes,St Oliver Plunkett ER,Silver Park,Stephen Maher,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 6,Lucan Sarsfields,Na Fianna,Arthur Griffith Park,Mick O Flaherty,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,Minor HL Div 6,Raheny,St Judes,St Annes Park,Darragh McGhee,2025-07-09,3320
+Hurling,Wednesday July 9,19:30,U14 Hurling C Phase Two Gp.A,Ballyboden St Endas,Castleknock,Cherryfield,Michael Gilvarry Lucan Sarsfields,2025-07-09,3327
+Hurling,Thursday July 10,19:30,Go Ahead Ireland Intermediate Hurling Championship,St Peregrines,Crumlin,Blakestown,John Doherty,2025-07-10,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 1,St Annes,Cuala,Bohernabreena,Stephen Maher,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 1,Stars of Erin,Round Towers (C),Glencullen,Daniel Hussey,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 1,Whitehall Colmcille,Na Fianna,Cloghran,Ernie Brenner,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 2,Good Counsel / Liffey Gaels,Erins Isle,Liffey Park,Gerry McGeough,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 2,Setanta,Kilmacud Crokes,Club Teach Setanta,Dave Foley,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior E Hurling Championship Group 2,St Vincents,St Peregrines,Pairc Na Uinsionn,Darren Lennon,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 1,Erin Go Bragh,Civil Service Hurling,St Catherines Park,Donal Ryan,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 1,Lucan Sarsfields,Craobh Chiarain,12th Lock,Marc MacLiam,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 1,St Maurs,Raheny,Rush,John O Brien,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 2,St James Gaels An Caislean,St Sylvesters,Drimnagh Castle,Gerard Delaney,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 2,O Dwyers,O Tooles,Balbriggan,Stephen Dooley,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior F Hurling Championship Group 2,Kilmacud Crokes,Thomas Davis,Silver Park,Duncan Higgins,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 1,Bye,St Oliver Plunkett ER,Bye,TBC,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 1,Na Gaeil Aeracha,Ballyboden St Endas,Marino IOE,Marcus Reynolds,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 1,St Josephs OCB,Kevins,Fairview Park,Conor Kavanagh,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 1,St Marks,Geraldine P. Moran,McGee Park,Tom  Eakins,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 2,Castleknock,Beann Eadair,Somerton Park,Gareth McElhone,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 2,Na Fianna,Fingallians,St Mobhi Road,Brian Moore,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior G Hurling Championship Group 2,Scoil Ui Chonaill,Na Gaeil Oga,Clontarf Road,Darragh McGhee,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 1,Trinity Gaels,Lucan Sarsfields,Drumnigh,Aaron  McClean,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 1,Ranelagh Gaels,Clontarf,Bushy Park,Eugene Murphy,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 1,St Patricks (D),Naomh Barrog,Donabate,Ciaran Lyng,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 2,Commercials,Wild Geese,Rathcoole,Eugene Murphy Jnr,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 2,St Finians (S),Faughs,River Valley,TBC,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 2,Wanderers,Bye,Frank Kelly Park,TBC,2025-07-11,3453
+Hurling,Friday July 11,19:30,Go Ahead Ireland Junior H Hurling Championship Group 2,Garda Westmanstown Gaels,St Kevin-Killians,Westmanstown,Caoimhín Bermingham,2025-07-11,3453
+Hurling,Saturday July 12,18:30,Go Ahead Ireland Intermediate Hurling Championship,Kilmacud Crokes,Good Counsel / Liffey Gaels,Silver Park,Adam Kelly,2025-07-12,3453
+Hurling,Saturday July 12,18:30,Go Ahead Ireland Intermediate Hurling Championship,Lucan Sarsfields,Round Towers (C),12th Lock,Fergus McGreevy,2025-07-12,3453
+Hurling,Saturday July 12,18:30,Go Ahead Ireland Intermediate Hurling Championship,Scoil Ui Chonaill,St Maurs,Clontarf Road,Kevin O Donnell,2025-07-12,3453
+Hurling,Saturday July 12,18:30,Go Ahead Ireland Premier Intermediate Hurling Championship,Commercials,St Vincents,Rathcoole,David Murphy,2025-07-12,3453
+Hurling,Saturday July 12,18:30,Go Ahead Ireland Premier Intermediate Hurling Championship,Cuala,O Tooles,Shanganagh Park,Brian O Connor,2025-07-12,3453
+Hurling,Saturday July 12,18:30,Go Ahead Ireland Premier Intermediate Hurling Championship,Setanta,Naomh Olaf,Club Teach Setanta,Donncha Hassey,2025-07-12,3453
+Hurling,Saturday July 12,18:30,Go Ahead Ireland Premier Intermediate Hurling Championship,St Sylvesters,Naomh Fionnbarra,Broomfield,Ronan Carroll,2025-07-12,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 1,Skerries Harps,Ballyboden St Endas,Skerries,Eoin Crossen,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 1,St Oliver Plunkett ER,Clanna Gael-Fontenoy,Martin Savage Park,Diarmuid O Loing,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 1,St Judes,Faughs,Tymon Park,Paul Fahey,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 2,Lucan Sarsfields,Thomas Davis,12th Lock,Tom Curran,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 2,Raheny,Kevins,St Annes Park,Simon Redmond,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior A Hurling Championship Group 2,St Marks,St Finians (S),McGee Park,Paul Cullivan,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 1,Castleknock,Ballinteer St Johns,Somerton Park,Laurence Kelly,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 1,Craobh Chiarain,Ballyboden St Endas,Clonshaugh,Eamon Morris,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 1,St Patricks (P),Na Fianna,Glenauline Park,Padraig Furlong,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 2,Civil Service Hurling,Wild Geese,Islandbridge,Richard Lancaster,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 2,Cuala,Kilmacud Crokes,Shanganagh Park,Alan Maxwell,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior B Hurling Championship Group 2,St Brigids,Whitehall Colmcille,Russell Park,Jimmy  Frawley,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 1,St Sylvesters,Na Gaeil Oga,Broomfield,Ronan Smith,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 1,Naomh Olaf,Castleknock,Pairc Ui Bhriain,Kieron Young,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 1,St Judes,Naomh Barrog,Tymon Park,Tom  Eakins,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 2,Commercials,Clontarf,Rathcoole,Pat Murphy,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 2,Naomh Fionnbarra,Fingallians,Pope John Paul ll Park,Shay Hurson,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior C Hurling Championship Group 2,St Brigids,St Brendans,Russell Park,Gerry McGeough,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 1,Crumlin,Ballyboden St Endas,Pearse Park,Conor O Halloran,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 1,Faughs,Ballinteer St Johns,Osprey,Declan Enright,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 1,St Patricks (D),Pobal Parnell,Donabate,John O Brien,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 2,Erins Isle,Trinity Gaels,Finglas,Darren Lennon,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 2,Kevins,Naomh Mearnog,Dolphin Park,Gerard Delaney,2025-07-13,3453
+Hurling,Sunday July 13,11:00,Go Ahead ireland Junior D Hurling Championship Group 2,Round Towers Lusk,St Vincents,Thomas Ashe Park,Stephen Shields,2025-07-13,3453
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 1 Spring,Kilmacud Crokes,Ballyboden St Endas,Pairc De Burca,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 1 Spring,Naomh Olaf,Lucan Sarsfields,Pairc Ui Bhrian,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 2 Spring,Templeogue Synge Street,St Judes,Bushy Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 3 Spring,Foxrock Cabinteely,St Patricks Donabate,Kilboggett Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 3 Spring,Raheny,Erins Isle,St Annes No 10,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 3 Spring,Trinity Gaels,St Vincents,Drumnigh,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 3 Spring,Whitehall Colmcille,O Dwyers,Ellenfield,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 4 Spring,St Annes,Thomas Davis,Boharnabrenna,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 4 Spring,St Oliver Plunkett ER,Round Towers Clondalkin,Martin Savage Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 4 Spring,St Kevins/Killians,Shankill,Kilnamanagh,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 4 Spring,Ranelagh Gaels,Clanna Gael/Fontenoy,Cathal Brugha Barracks,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 4 Spring,Ballyboden St Endas,St Finians Newcastle,Cherryfield,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 5 Spring,Castleknock,Naomh Mearnog,Somerton,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 5 Spring,Lucan Sarsfields,Naomh Olaf,12th Lock,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 5 Spring,St Brigids,St Sylvesters,Russell Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 6 Spring,Ballymun Kickhams,Bray Emmets,Pairc Ciceam,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 6 Spring,Fingal Ravens,O Tooles,Rolestown,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 6 Spring,Garda/Westmanstown Gaels,Round Towers Lusk,Jerome Twomey Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 6 Spring,Pobal Parnell,St Marys Saggart,Chanel,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 6 Spring,Stars of Erin,St Patricks Palmerstown,Glencullen,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 7 Spring,St Peregrines,Raheny,Blakestown,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 7 Spring,St Vincents,Whitehall Colmcille,Pairc Naomh Uinsionn,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 7 Spring,Templeogue Synge Street,Naomh Barrog,Bushy Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 7 Spring,St Maurs,St Finians Swords,Rush,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 7 Spring,O Dwyers,Erins Isle,Bremore Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 8 Spring,Garristown,Tyrrelstown,Garristown,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 8 Spring,Na Gaeil Oga,Skerries Harps,Phoenix Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 8 Spring,St Margarets,Geraldine P Morans,St Margarets,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 8 Spring,St Patricks Donabate,Erin Go Bragh,Donabate,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 9 Spring,Ballyboden St Endas,Fingallians,Cherryfield,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 9 Spring,Kilmacud Crokes,Clontarf,Pairc De Burca,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 9 Spring,Lucan Sarsfields,Ballinteer St Johns,12th Lock,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 9 Spring,Na Fianna,St Judes,St Mobhi Road,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 9 Spring,St Sylvesters,St Brigids,Broomfield,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 10 Spring,Thomas Davis,Round Towers Lusk,Kiltipper Road,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 10 Spring,Ranelagh Gaels,Garda/Westmanstown Gaels,Cathal Brugha Barracks,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 10 Spring,Good Counsel/Liffey Gaels,Templeogue Synge Street,Galtymore Road,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 10 Spring,Clanna Gael/Fontenoy,Castleknock,Sean Moore Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 11 Spring,Clontarf,Raheny,St Annes No 34,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 11 Spring,Naomh Olaf,St Brendans,Pairc Ui Bhrian,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 11 Spring,Skerries Harps,St Peregrines,Skerries,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 11 Spring,St Marks,Whitehall Colmcille,McGee Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 12 Spring,Erins Isle,Innisfails,Finglas,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 12 Spring,O Dwyers,St Finians Swords,Bremore Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 12 Spring,St Colmcilles,St Vincents,Balheary,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 12 Spring,St Sylvesters,St Oliver Plunkett ER,Broomfield,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 12 Spring,Tyrrelstown,Fingallians,Tyrellstown,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 13 Spring,Clontarf,Ballinteer St Johns,St Annes No 34,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 13 Spring,Kilmacud Crokes,Na Fianna,Pairc De Burca,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 13 Spring,St Brigids,Lucan Sarsfields,Russell Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U12 Group 13 Spring,Templeogue Synge Street,St Judes,Bushy Park,TBC,2025-07-05,3297
+Ladies Football,Saturday July 5,13:00,LGFA U11 4 Team Group X,Kilmacud Crokes,Naomh Olaf,Pairc De Burca,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 4 Team Group X,Cuala,Templeogue Synge Street,Meadowvale,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 4 Team Group Y,St Patricks Donabate,Raheny,Donabate,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 4 Team Group Y,St Brigids,Na Fianna,Russell Park,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 4 Team Group Y,Fingallians,Castleknock,Balheary,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group Y,Naomh Mearnog,Skerries Harps,Portmarnock,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group Y,St Oliver Plunkett ER,St Sylvesters,Martin Savage Park,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group Y,Clontarf,St Finians Swords,St Annes No 34,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group V,Man O War/Scoil Ui Chonail/St Monicas,Clontarf,Clontarf Road,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group V,Naomh Barrog,St Sylvesters,Pairc Barrog,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group V,Naomh Mearnog,St Vincents,Portmarnock,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group V,Beann Eadair,Erins Isle,Howth,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Z,Wanderers,Castleknock,Frank Kelly Park,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Z,Geraldine P Morans,Garda/Westmanstown Gaels,Cornelscourt,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Z,St Kevins/Killians,St Annes,Kilnamanagh,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Z,Stars of Erin,Robert Emmets,Glencullen,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Z,Ballyfermot Gaels,St Patricks Palmerstown,Ballyfermot,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Y,O Dwyers,St Peters,Bremore Park,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Y,St Maurs,O Tooles,Rush,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Y,Craobh Chiaran,Trinity Gaels,Clonshaugh,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 2 Team Group Y,Na Dubhgall,Ballymun Kickhams,Racecourse Park,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group Z,Shankill,Ballyboden St Endas,Shanganagh Cliffs,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group Z,Round Towers Clondalkin,Thomas Davis,Clondalkin,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group Z,Foxrock Cabinteely,Bray Emmets,Kilboggett Park,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group Z,Ballyboden St Endas,St Marys Saggart,Cherryfield,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,13:00,LGFA U11 3 Team Group Z,Clanna Gael/Fontenoy,Ranelagh Gaels,Sean Moore Park,TBC,2025-07-05,3296
+Ladies Football,Saturday July 5,12:00,LGFA U10 4 Team Group X,St Vincents,Raheny,Pairc Naomh Uinsionn,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 4 Team Group X,Erins Isle,Whitehall Colmcille,Finglas,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 4 Team Group X,Castleknock,Trinity Gaels,Somerton,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 4 Team Group Y,Templeogue Synge Street,Ballyboden St Endas,Bushy Park,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 4 Team Group Y,Kilmacud Crokes,Lucan Sarsfields,Pairc De Burca,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 4 Team Group Y,Ballyboden St Endas,Cuala,Cherryfield,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group W,St Sylvesters,St Peregrines,Broomfield,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group W,Na Fianna,Clontarf,St Mobhi Road,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group W,Naomh Barrog,St Brigids,Pairc Barrog,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group W,St Oliver Plunkett ER,Naomh Fionnbarra,Martin Savage Park,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group X,St Finians Swords,St Patricks Donabate,River Valley,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group X,Na Fianna,St Sylvesters,St Mobhi Road,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group X,Fingallians,Clontarf,Balheary,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group Y,Ballinteer St Johns,Naomh Olaf,Marley Park,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group Y,St Marys Saggart,St Judes,Saggart,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group Z,Geraldine P Morans,Kilmacud Crokes,Cornelscourt,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 3 Team Group Z,Naomh Olaf,Ballinteer St Johns,Pairc Ui Bhrian,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group X,Beann Eadair,St Brigids,Howth,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group X,Ballymun Kickhams,Scoil Ui Chonaill,Pairc Ciceam,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group Y,O Tooles,Round Towers Lusk/Man O War,Pairc ui Thuathaill,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group Y,Garristown,St Peters,Garristown,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group Y,Fingallians,St Maurs,Balheary,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group Z,St Judes,Ranelagh Gaels,Tymon North,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group Z,St Finians Newcastle,Good Counsel/Liffey Gaels,Newcastle,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group Z,Na Gaeil Oga,St Patricks Palmerstown,Phoenix Park,TBC,2025-07-05,3295
+Ladies Football,Saturday July 5,12:00,LGFA U10 2 Team Group Z,Garda/Westmanstown Gaels,Bray Emmets,Jerome Twomey Park,TBC,2025-07-05,3295
+Ladies Football,Sunday July 6,13:00,LGFA U14 League Div 12 S,Kilmacud Crokes,Ballyfermot Gaels,Pairc De Burca,Derek Oman,2025-07-06,3299
+Ladies Football,Sunday July 6,10:00,LGFA U9 4 team group Y,Na Fianna,Na Fianna,St Mobhi Road,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 4 team group Y,St Finians Swords,Fingallians,River Valley,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 4 team group Y,St Sylvesters,Erins Isle,Broomfield,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA u9 3 Team Group V,Ballinteer St Johns,Ranelagh Gaels,Marley Park,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA u9 3 Team Group V,Naomh Olaf,St Judes,Pairc Ui Bhrian,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 3 Team Group Y,Castleknock,Erin Go Bragh,Somerton,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 3 Team Group Y,St Oliver Plunkett ER,Whitehall Colmcille,Martin Savage Park,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 3 Team Group Y,Raheny,St Patricks Donabate,St Annes No 10,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 3 Team Group Y,Clontarf,Naomh Mearnog,St Annes No 34,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 2 Team Group Y,Thomas Davis,Bray Emmets,Kiltipper Road,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 2 Team Group Y,St Finians Newcastle,St Kevins/Killians,Newcastle,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 2 Team Group Y,Shankill,Foxrock Cabinteely,Shanganagh Cliffs,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 2 Team Group Y,Geraldine P Morans,St Patricks Palmerstown,Cornelscourt,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 4 Team Group X,Ballyboden St Endas,Cuala,Cherryfield,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 4 Team Group X,Round Towers Clondalkin,Naomh Olaf,Clondalkin,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 2 Team Group X,Skerries Harps,Craobh Chiarain/Innisfails,Skerries,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 2 Team Group X,Trinity Gaels,St Brigids,Drumnigh,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U 9 3 Team Group W,St Marys Saggart,Thomas Davis,Saggart,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U 9 3 Team Group W,Ballyboden St Endas,Wanderers/Robert Emmets and Garda Westmanstown Gaels,Cherryfield,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U 9 3 Team Group W,Ballinteer St Johns,St Annes,Marley Park,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 3 Team Group X,Whitehall Colmcille,St Sylvesters,Ellenfield,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 3 Team Group X,Ballymun Kickhams,Raheny,Pairc Ciceam,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U9 3 Team Group X,St Brigids,Castleknock,Russell Park,TBC,2025-07-06,3294
+Ladies Football,Sunday July 6,10:00,LGFA U8 4 Team Group Y,Na Fianna,Na Fianna,St Mobhi Road,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 4 Team Group Y,St Oliver Plunkett ER,Erins Isle,Martin Savage Park,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 4 Team Group Y,Whitehall Colmcille,St Finians Swords,Ellenfield,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group V,Raheny,Castleknock,St Annes No 10,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group W,Castleknock,Raheny,Somerton,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group W,Naomh Fionnbarra,St Sylvesters,Pope John Paul Park II,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group X,St Maurs,St Patricks Donabate,Rush,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group X,Skerries Harps,Fingal Ravens,Skerries,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group Y,Ranelagh Gaels,Templeogue Synge Street,Cathal Brugha Barracks,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group Y,Thomas Davis,Kilmacud Crokes,Kiltipper Road,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group Y,Templeogue Synge Street,Clanna Gael/Fontenoy,Bushy Park,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group Y,Round Towers Clondalkin,Naomh Olaf,Clondalkin,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group Y,Kilmacud Crokes,Ballyboden St Endas,Pairc De Burca,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 3 Team Group Y,Foxrock Cabinteely,Ballinteer St Johns,Kilboggett Park,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U 8 2 Team Group X,Ballymun Kickhams,Erin Go Bragh,Pairc Ciceam,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U 8 2 Team Group X,Trinity Gaels,Beann Eadair,Drumnigh,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 2 Team Group Y,Round Towers Lusk/Scoil Ui Chonail,St Peters,Clontarf Road,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 2 Team Group Y,Garristown,Fingallians,Garristown,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 2 Team Group Y,O Dwyers,St Brendans /Innisfails,Bremore Park,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 2 Team Group Z,Bray Emmets/Shankill,Croi Ro Naofa/Good Counsel Liffey Gaels,Shanganagh Cliffs,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 2 Team Group Z,Garda Westmanstown Gaels/St Finians Newcastle,Stars of Erin,Jerome Twomey Park,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 2 Team Group Z,St Marys Saggart,St Patricks Palmerstown,Saggart,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 4 Team Group X,Lucan Sarsfields,Cuala,12th Lock,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 4 Team Group X,St Judes,Ballyboden St Endas,Tymon North,TBC,2025-07-06,3293
+Ladies Football,Sunday July 6,10:00,LGFA U8 4 Team Group X,Ballyboden St Endas,Ballinteer St Johns,Cherryfield,TBC,2025-07-06,3293
+Ladies Football,Monday July 7,19:30,LGFA Go-Ahead Adult League Div 11,St Margarets,St Brendans,St Margarets,Orla Simpson,2025-07-07,3292
+Ladies Football,Wednesday July 9,19:30,LGFA Go-Ahead Adult Cup Div 7A,St Brendans,Fingallians,Longmeadows,Niall O Hara,2025-07-09,3292
+Ladies Football,Wednesday July 9,19:30,LGFA Go-Ahead Adult League Div 3,Scoil Ui Chonaill,Na Fianna,Clontarf Road,Anthony Brennan,2025-07-09,3292
+Ladies Football,Wednesday July 9,19:30,LGFA Go-Ahead Adult League Div 6,Wanderers,O Tooles,Frank Kelly Park,Pat Murphy,2025-07-09,3292
+Ladies Football,Monday July 14,19:30,LGFA Go-Ahead Adult League Div 8,Beann Eadair,Craobh Chiaran,Howth,Vincent  Potter,2025-07-14,3292
+Ladies Football,Wednesday July 16,19:30,LGFA Go-Ahead Adult Cup Div 7A,Ranelagh Gaels,St Brendans,Bushy Park,Reg Harbron,2025-07-16,3292
+Ladies Football,Wednesday July 16,19:30,LGFA Go-Ahead Adult Cup Div 11A,St Brendans,Na Gaeil Aeracha,Longmeadows,John Doherty,2025-07-16,3292

@@ -15,6 +15,8 @@ import time
 from urllib.parse import urlencode
 import re
 from bs4 import BeautifulSoup
+import concurrent.futures
+import random
 
 
 class DublinGAAScraper:
@@ -52,6 +54,63 @@ class DublinGAAScraper:
             "Camogie": "7282"
         }
         
+        # Age ID mappings for each sport to ensure we get ALL fixtures
+        self.age_mappings = {
+            "Male Football": [
+                "3468",  # Adult Football Championship
+                "3315",  # AFL
+                "3337",  # MFL
+                "3321",  # U-8
+                "3322",  # U-9
+                "3323",  # U-10
+                "3324",  # U-11
+                "3325",  # U-12
+                "3326",  # U-13
+                "3327",  # U-14
+                "3328",  # U-15
+                "3329",  # U-16
+            ],
+            "Hurling": [
+                "3453",  # Adult Hurling Championship
+                "3330",  # AHL
+                "3320",  # MHL
+                "3321",  # U-8
+                "3322",  # U-9
+                "3323",  # U-10
+                "3324",  # U-11
+                "3325",  # U-12
+                "3326",  # U-13
+                "3327",  # U-14
+                "3328",  # U-15
+                "3329",  # U-16
+            ],
+            "Ladies Football": [
+                "3302",  # U-18
+                "3300",  # U-15
+                "3301",  # U-16
+                "3298",  # U-13
+                "3292",  # Adult
+                "3291",  # County
+                "3450",  # LGFA Feile
+                "3299",  # U-14
+                "3297",  # U-12
+                "3296",  # U-11
+                "3295",  # U-10
+                "3294",  # U-9
+                "3293",  # U-8
+            ],
+            "Camogie": [
+                "3317",  # Adult League
+                "3336",  # U-18
+                "3335",  # U-16
+                "3445",  # Camogie Feile
+                "3334",  # U-15
+                "3333",  # U-14
+                "3318",  # U-13
+                "3316",  # Go Games
+            ]
+        }
+        
         # Default parameters structure
         self.default_params = {
             'action': 'get_fixtures',
@@ -66,6 +125,52 @@ class DublinGAAScraper:
             'comp_search_id': ''
         }
     
+    def _make_request_with_backoff(self, payload: dict, max_retries: int = 3) -> Optional[dict]:
+        """
+        Make a request with exponential backoff for rate limiting.
+        
+        Args:
+            payload: Request payload
+            max_retries: Maximum number of retries
+            
+        Returns:
+            Response data or None if failed
+        """
+        for attempt in range(max_retries):
+            try:
+                response = self.session.post(
+                    self.sportlomo_ajax_url,
+                    data=payload,
+                    timeout=30
+                )
+                
+                # Check if we got rate limited or server error
+                if response.status_code == 429 or response.status_code >= 500:
+                    if attempt < max_retries - 1:
+                        # Exponential backoff with jitter
+                        delay = (2 ** attempt) + random.uniform(0, 1)
+                        print(f"Rate limited, retrying in {delay:.2f}s...")
+                        time.sleep(delay)
+                        continue
+                    else:
+                        print(f"Request failed after {max_retries} attempts: {response.status_code}")
+                        return None
+                
+                response.raise_for_status()
+                return response.json()
+                
+            except requests.exceptions.RequestException as e:
+                if attempt < max_retries - 1:
+                    delay = (2 ** attempt) + random.uniform(0, 1)
+                    print(f"Request error, retrying in {delay:.2f}s: {e}")
+                    time.sleep(delay)
+                    continue
+                else:
+                    print(f"Request failed after {max_retries} attempts: {e}")
+                    return None
+        
+        return None
+
     def _parse_sport_value(self, sport_value: str) -> tuple:
         """
         Parse the sport value to get user_id and code_id.
@@ -107,7 +212,14 @@ class DublinGAAScraper:
             comp_name = comp_name_tag.get_text(strip=True) if comp_name_tag else "N/A"
             
             match_date_tag = header.find('div', class_='date')
-            match_date = match_date_tag.get_text(strip=True).replace("st", "").replace("nd", "").replace("rd", "").replace("th", "") if match_date_tag else "N/A"
+            if match_date_tag:
+                # Get the raw date text and remove only ordinal suffixes properly
+                match_date = match_date_tag.get_text(strip=True)
+                # Use regex to remove ordinal suffixes only after numbers
+                import re
+                match_date = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', match_date)
+            else:
+                match_date = "N/A"
             
             # Find match rows that belong to this competition
             current_element = header.find_next_sibling()
@@ -153,9 +265,43 @@ class DublinGAAScraper:
         
         return matches
     
+    def _fetch_single_request(self, payload: dict, sport_name: str, date_str: str, age_id: str) -> List[Dict]:
+        """
+        Fetch fixtures for a single date/age combination.
+        
+        Args:
+            payload: Request payload
+            sport_name: Sport name
+            date_str: Date string
+            age_id: Age ID
+            
+        Returns:
+            List of matches
+        """
+        data = self._make_request_with_backoff(payload)
+        if not data:
+            return []
+        
+        html_content = data.get('html', '')
+        if not html_content or "not_found" in html_content:
+            return []
+        
+        parsed_matches = self._parse_sportlomo_match_data(html_content)
+        if not parsed_matches:
+            return []
+        
+        # Add sport and date info to each match
+        for match in parsed_matches:
+            match['sport'] = sport_name
+            match['scraped_date'] = date_str
+            match['age_id'] = age_id
+        
+        return parsed_matches
+
     def get_sportlomo_fixtures(self, sport_name: str, from_date: str, to_date: str = None) -> Dict:
         """
-        Get fixtures from SportLoMo using the proper AJAX API.
+        Get fixtures from SportLoMo using the proper AJAX API with parallel requests.
+        Now queries each age group separately to ensure we get ALL fixtures.
         
         Args:
             sport_name: Sport name from sports_mapping
@@ -176,65 +322,76 @@ class DublinGAAScraper:
         
         sport_value = self.sports_mapping[sport_name]
         user_id, code_id = self._parse_sport_value(sport_value)
+        age_ids = self.age_mappings.get(sport_name, [''])  # Fallback to empty string if no age mapping
         
-        all_matches = []
-        
-        # Get fixtures for each date in the range
+        # Build all request payloads
+        requests_to_make = []
         current_date = datetime.strptime(from_date, '%Y-%m-%d')
         end_date = datetime.strptime(to_date, '%Y-%m-%d')
         
         while current_date <= end_date:
             date_str = current_date.strftime('%Y-%m-%d')
             
-            payload = {
-                'action': 'get_fixtures',
-                'fdate': date_str,
-                'tdate': date_str,
-                'user_id': user_id,
-                'code_id': code_id,
-                'age_id': '',  # Get all age grades
-                'spage_id': '1',
-                'is_fixture': '1',
-            }
-            
-            try:
-                response = self.session.post(
-                    self.sportlomo_ajax_url,
-                    data=payload,
-                    timeout=30
-                )
-                response.raise_for_status()
-                
-                data = response.json()
-                html_content = data.get('html', '')
-                
-                if html_content and "not_found" not in html_content:
-                    parsed_matches = self._parse_sportlomo_match_data(html_content)
-                    if parsed_matches:
-                        # Add sport and date info to each match
-                        for match in parsed_matches:
-                            match['sport'] = sport_name
-                            match['scraped_date'] = date_str
-                        all_matches.extend(parsed_matches)
-                
-                # Be respectful with requests
-                time.sleep(0.5)
-                
-            except Exception as e:
-                print(f"Error getting {sport_name} fixtures for {date_str}: {e}")
+            for age_id in age_ids:
+                payload = {
+                    'action': 'get_fixtures',
+                    'fdate': date_str,
+                    'tdate': date_str,
+                    'user_id': user_id,
+                    'code_id': code_id,
+                    'age_id': age_id,
+                    'spage_id': '1',
+                    'is_fixture': '1',
+                }
+                requests_to_make.append((payload, sport_name, date_str, age_id))
             
             current_date += timedelta(days=1)
+        
+        print(f"Making {len(requests_to_make)} parallel requests for {sport_name}...")
+        
+        # Execute requests in parallel
+        all_matches = []
+        unique_matches = set()  # To avoid duplicates
+        
+        # Use ThreadPoolExecutor for parallel requests
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+            # Submit all requests
+            future_to_request = {
+                executor.submit(self._fetch_single_request, payload, sport_name, date_str, age_id): (date_str, age_id)
+                for payload, sport_name, date_str, age_id in requests_to_make
+            }
+            
+            # Collect results as they complete
+            for future in concurrent.futures.as_completed(future_to_request):
+                date_str, age_id = future_to_request[future]
+                try:
+                    matches = future.result()
+                    for match in matches:
+                        # Create a unique key to avoid duplicates
+                        unique_key = (
+                            match['date'], match['time'], match['competition'],
+                            match['home_team'], match['away_team'], match['venue']
+                        )
+                        
+                        if unique_key not in unique_matches:
+                            unique_matches.add(unique_key)
+                            all_matches.append(match)
+                            
+                except Exception as e:
+                    print(f"Error processing {sport_name} fixtures for {date_str} age_id {age_id}: {e}")
         
         return {
             'success': True,
             'fixtures': all_matches,
-            'method': 'sportlomo_ajax',
+            'method': 'sportlomo_ajax_parallel',
             'sport': sport_name,
             'date_range': f"{from_date} to {to_date}",
-            'source': 'sportlomo'
+            'source': 'sportlomo',
+            'age_groups_queried': len(age_ids),
+            'total_requests': len(requests_to_make)
         }
     
-    def get_all_sports_fixtures(self, from_date: str, to_date: str = None, sports: List[str] = None) -> Dict:
+    def get_all_sports_fixtures(self, from_date: str, to_date: str = None, sports: List[str] = None, progress_callback=None) -> Dict:
         """
         Get fixtures for all sports for the specified date range.
         
@@ -242,6 +399,7 @@ class DublinGAAScraper:
             from_date: Start date (YYYY-MM-DD)
             to_date: End date (YYYY-MM-DD), defaults to from_date
             sports: List of sports to scrape, defaults to all available
+            progress_callback: Optional callback function for progress updates
             
         Returns:
             Dictionary with all fixtures data
@@ -255,7 +413,10 @@ class DublinGAAScraper:
         all_fixtures = []
         results_by_sport = {}
         
-        for sport in sports:
+        for i, sport in enumerate(sports):
+            if progress_callback:
+                progress_callback(f"Scraping {sport} fixtures...", i, len(sports))
+            
             print(f"Scraping {sport} fixtures from {from_date} to {to_date}...")
             
             result = self.get_sportlomo_fixtures(sport, from_date, to_date)
@@ -264,8 +425,12 @@ class DublinGAAScraper:
             if result.get('success') and result.get('fixtures'):
                 all_fixtures.extend(result['fixtures'])
                 print(f"  Found {len(result['fixtures'])} matches for {sport}")
+                if progress_callback:
+                    progress_callback(f"✅ {sport}: {len(result['fixtures'])} fixtures found", i+1, len(sports))
             else:
                 print(f"  No matches found for {sport}")
+                if progress_callback:
+                    progress_callback(f"❌ {sport}: No fixtures found", i+1, len(sports))
         
         return {
             'success': True,
@@ -277,7 +442,7 @@ class DublinGAAScraper:
             'method': 'comprehensive_sportlomo'
         }
     
-    def get_two_weeks_all_sports(self, start_date: str = None) -> Dict:
+    def get_two_weeks_all_sports(self, start_date: str = None, progress_callback=None) -> Dict:
         """
         Get fixtures for all sports for the next two weeks.
         
@@ -300,7 +465,7 @@ class DublinGAAScraper:
         print(f"Sports: {list(self.sports_mapping.keys())}")
         print("-" * 60)
         
-        return self.get_all_sports_fixtures(start_date, end_date)
+        return self.get_all_sports_fixtures(start_date, end_date, progress_callback=progress_callback)
     
     def _get_csrf_token(self) -> Optional[str]:
         """

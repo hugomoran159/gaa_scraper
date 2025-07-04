@@ -224,7 +224,7 @@ def main():
     init_session_state()
     
     # Header
-    st.markdown('<h1 class="main-header">🏈 Dublin GAA Fixtures Scraper</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">⚽ Dublin GAA Fixtures Scraper</h1>', unsafe_allow_html=True)
     st.markdown("### Comprehensive fixture data for all Dublin GAA sports, age groups, and competitions")
     
     # Sidebar controls
